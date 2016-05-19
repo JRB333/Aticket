@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Review Plate Image"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="36dp"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/image_review"
+        android:layout_width="380dp"
+        android:layout_height="285dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp" >
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_below="@+id/image_review">
+
+        <Button
+            android:id="@+id/SaveBtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Save"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/NoSaveBtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="Delete"
+            android:layout_toRightOf="@+id/SaveBtn"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+</RelativeLayout>

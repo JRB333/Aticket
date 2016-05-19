@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <ImageView
+        android:id="@+id/pageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/clancy">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/lblGUITitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pageIcon"
+        android:layout_marginTop="10dp"
+        android:text="@string/enter_pass_data_title"
+        android:textColor="#ff000000"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblPassNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblGUITitle"
+        android:layout_marginTop="40dp"
+        android:text="Current Pass Number:"
+        android:textColor="#ff000000"
+        android:textSize="26sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtPassNumber"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/lblPassNumber"
+        android:layout_alignBottom="@id/lblPassNumber"
+        android:layout_marginTop="5dp"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    />
+
+    <TextView
+        android:id="@+id/lblPassesEntered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPassNumber"
+        android:layout_marginTop="10dp"
+        android:text="Passes Entered:"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtPassesEntered"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblPassesEntered"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/lblPassesEntered"
+        android:layout_marginTop="5dp"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnResume"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblPassesEntered"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:text="Resume Pass nn"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblPassesEntered"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:text="Next Pass"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

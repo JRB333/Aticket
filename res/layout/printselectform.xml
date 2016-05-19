@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:layout_marginTop="6dp"
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonESC"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" />
+
+    <TextView
+        android:id="@+id/widgetEnterMake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ImageView01"
+        android:text="@string/select_pics"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView1"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/widgetEnterMake"
+        android:paddingTop="2dp"
+        android:src="@drawable/pic1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:paddingTop="2dp"
+        android:src="@drawable/checkmark" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/widgetEnterMake"
+        android:paddingTop="2dp"
+        android:src="@drawable/pic2" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView6"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/widgetEnterMake"
+        android:paddingTop="2dp"
+        android:src="@drawable/checkmark" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:paddingTop="2dp"
+        android:src="@drawable/pic3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:paddingTop="2dp"
+        android:src="@drawable/checkmark" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="160dp"
+        android:layout_height="120dp"        
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:src="@drawable/printa" />
+    
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_marginTop="3dp"
+        android:id="@+id/buttonESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" android:visibility="invisible"/>
+
+</RelativeLayout>

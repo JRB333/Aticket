@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget37"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+>
+ <Button android:id="@+id/buttonESC" 
+     android:layout_marginTop="4dp" 
+     android:textSize="20sp" 
+     android:textStyle="bold" 
+     android:layout_height="wrap_content" 
+     android:text="@string/app_esc" 
+     android:layout_width="wrap_content" 
+     android:layout_alignParentTop="true" 
+     android:layout_alignParentRight="true"></Button>
+ 
+ <TextView android:textSize="24sp" 
+     android:text="@string/additional_comment3" 
+     android:layout_height="wrap_content" 
+     android:textStyle="bold" android:id="@+id/widgetEntercomment" 
+     android:textColor="#ff000000" 
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/imageView1" 
+     android:layout_alignParentLeft="true" 
+     android:layout_alignRight="@+id/buttonESC"
+     android:layout_marginTop="10dp">     
+ </TextView>
+ 
+ <EditText android:textSize="28sp" 
+     android:textStyle="bold" 
+     android:layout_height="wrap_content" 
+     android:id="@+id/editTextcomment" 
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/widgetEntercomment" 
+     android:layout_alignLeft="@+id/widgetEntercomment" 
+     android:layout_alignRight="@+id/buttonESC" 
+     android:inputType="textCapCharacters" 
+     android:editable="false"  
+	 android:textColorHighlight="#A6D48D"      
+     android:maxLength="20"></EditText>
+
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/buttonESC"
+     android:layout_alignLeft="@+id/widgetEntercomment"
+     android:layout_alignRight="@+id/TextImageWidth"
+     android:layout_alignTop="@+id/buttonESC"
+     android:contentDescription="@string/image_name"
+     android:src="@drawable/clancy1" >
+
+</ImageView>
+ <Button android:id="@+id/buttonEnter" 
+     android:textSize="20sp" 
+     android:textStyle="bold" 
+     android:layout_height="wrap_content" 
+     android:text="@string/enter" 
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/editTextcomment" 
+     android:layout_alignRight="@+id/editTextcomment" 
+     android:layout_marginTop="43dp"></Button>
+ 
+      <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/key_back1"
+        android:keyTextColor="#ff000000"
+        android:keyTextSize="30sp"
+        android:shadowColor="#ffFFFFFF" />    
+        
+         <TextView
+         android:id="@+id/TextImageWidth"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"         
+         android:text="@string/image_width"
+         android:textColor="#ff000000"
+         android:textSize="18sp" 
+         android:visibility="invisible"/>
+
+         <Button
+             android:id="@+id/ButtonSecondary"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/buttonEnter"
+             android:layout_alignBottom="@+id/buttonEnter"
+             android:layout_alignParentLeft="true"
+             android:text="@string/secondary"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+</RelativeLayout>

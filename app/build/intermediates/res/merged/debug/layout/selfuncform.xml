@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <Button
+        android:id="@+id/buttonESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/widgetEnterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:text="@string/select_function"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonESC"
+        android:layout_alignLeft="@+id/widgetEnterPassword"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:layout_alignTop="@+id/buttonESC"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/widget1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/widgetEnterPassword"
+        android:layout_below="@+id/widgetEnterPassword"
+        android:layout_marginTop="15dp"
+        android:text="@string/ticket_issuance"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/widget1"
+        android:text="@string/message"
+        android:textColor="#ffFF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/buttonEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextMessage"
+        android:layout_marginTop="27dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonEnter"
+        android:layout_alignBottom="@+id/buttonEnter"
+        android:layout_centerHorizontal="true"
+        android:text="@string/next"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+ -->
+   <!--  <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:text="@string/previous"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+ -->
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/buttonEnter"
+        android:layout_alignBottom="@+id/buttonEnter"        
+        android:src="@drawable/leftarrow" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonEnter"
+        android:layout_alignBottom="@+id/buttonEnter"   
+        android:layout_toRightOf="@+id/button1"
+        android:src="@drawable/rightarrow" />
+
+</RelativeLayout>

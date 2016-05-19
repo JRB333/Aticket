@@ -1,0 +1,1118 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:2:1-539:12
+	package
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:3:2-30
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:5:2-29
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:4:2-27
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:7:2-41
+	android:targetSdkVersion
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:7:12-38
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:8:2-57
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:8:16-54
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:9:2-67
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:9:16-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:10:2-76
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:10:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:11:2-78
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:11:19-75
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:12:2-72
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:12:19-69
+uses-permission#android.permission.DELETE_PACKAGES
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:13:2-71
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:13:19-68
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:14:2-76
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:14:19-73
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:15:2-66
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:15:19-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:16:2-78
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:16:19-75
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:17:2-64
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:17:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:18:2-70
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:18:19-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:19:2-62
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:19:19-59
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:20:2-63
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:20:19-60
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:21:2-72
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:21:19-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:22:2-80
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:22:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:23:2-92
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:23:19-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:24:2-89
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:24:19-70
+supports-screens
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:26:2-30:31
+	android:largeScreens
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:29:3-32
+	android:smallScreens
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:27:3-30
+	android:normalScreens
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:28:3-31
+	android:resizeable
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:26:20-46
+	android:anyDensity
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:30:3-29
+application
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:32:2-537:16
+	android:icon
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:32:15-50
+receiver#com.clancy.aticket.WifiReceiver
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:33:3-38:14
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:33:13-41
+intent-filter#android.net.wifi.STATE_CHANGE+android.net.wifi.supplicant.CONNECTION_CHANGE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:34:4-37:20
+action#android.net.wifi.STATE_CHANGE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:35:5-59
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:35:13-57
+action#android.net.wifi.supplicant.CONNECTION_CHANGE
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:36:5-76
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:36:13-73
+activity#com.clancy.aticket.AticketActivity
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:40:3-48:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:43:4-40
+	android:label
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:41:4-36
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:42:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:40:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:44:4-47:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:45:5-57
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:45:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:46:5-65
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:46:15-62
+activity#com.clancy.aticket.AdditionalComment1Form
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:50:3-54:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:52:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:53:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:51:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:50:13-51
+activity#com.clancy.aticket.AdditionalComment2Form
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:55:3-59:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:57:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:58:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:56:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:55:13-51
+activity#com.clancy.aticket.AdditionalComment3Form
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:60:3-64:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:62:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:63:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:61:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:60:13-51
+activity#com.clancy.aticket.AddFeeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:65:3-69:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:66:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:68:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:67:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:65:13-39
+activity#com.clancy.aticket.BadgeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:70:3-74:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:72:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:73:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:71:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:70:13-38
+activity#com.clancy.aticket.BeatForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:75:3-79:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:76:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:78:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:77:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:75:13-37
+activity#com.clancy.aticket.BodyForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:80:3-84:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:81:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:83:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:82:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:80:13-37
+activity#com.clancy.aticket.BootForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:85:3-89:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:86:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:88:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:87:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:85:13-37
+activity#com.clancy.aticket.BuildingForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:90:3-94:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:91:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:93:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:92:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:90:13-41
+activity#com.clancy.aticket.CameraForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:95:3-99:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:96:4-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:98:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:97:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:95:13-39
+activity#com.clancy.aticket.ChalkTimeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:100:3-104:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:103:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:102:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:101:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:100:13-42
+activity#com.clancy.aticket.ClancyJForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:105:3-109:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:107:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:108:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:106:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:105:13-40
+activity#com.clancy.aticket.ChalkForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:110:3-114:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:112:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:113:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:111:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:110:13-38
+activity#com.clancy.aticket.ColorForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:115:3-119:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:117:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:118:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:116:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:115:13-38
+activity#com.clancy.aticket.CommentForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:120:3-124:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:122:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:123:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:121:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:120:13-40
+activity#com.clancy.aticket.Comment1Form
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:125:3-129:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:127:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:128:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:126:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:125:13-41
+activity#com.clancy.aticket.Comment2Form
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:130:3-134:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:132:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:133:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:131:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:130:13-41
+activity#com.clancy.aticket.Comment3Form
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:135:3-139:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:137:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:138:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:136:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:135:13-41
+activity#com.clancy.aticket.ConfirmImageFileForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:140:3-144:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:143:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:142:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:141:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:140:13-49
+activity#com.clancy.aticket.CountForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:145:3-149:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:148:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:147:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:146:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:145:13-38
+activity#com.clancy.aticket.CourtDateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:150:3-154:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:153:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:152:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:151:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:150:13-42
+activity#com.clancy.aticket.CrossStreetForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:155:3-159:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:157:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:158:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:156:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:155:13-44
+activity#com.clancy.aticket.CustomDateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:160:3-164:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:162:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:163:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:161:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:160:13-43
+activity#com.clancy.aticket.CustomTimeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:165:3-169:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:167:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:168:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:166:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:165:13-43
+activity#com.clancy.aticket.Defines
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:170:3-171:14
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:170:13-36
+activity#com.clancy.aticket.DeptForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:172:3-176:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:174:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:175:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:173:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:172:13-37
+activity#com.clancy.aticket.DetailsForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:177:3-180:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:179:4-40
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:178:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:177:13-40
+activity#com.clancy.aticket.DirectionForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:181:3-185:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:183:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:184:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:182:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:181:13-42
+activity#com.clancy.aticket.DisplaySpaceForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:186:3-190:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:189:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:188:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:187:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:186:13-45
+activity#com.clancy.aticket.EmailForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:191:3-195:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:193:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:194:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:192:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:191:13-38
+activity#com.clancy.aticket.GetBootForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:196:3-199:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:198:4-40
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:197:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:196:13-40
+activity#com.clancy.aticket.GoogleMapsForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:200:3-204:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:203:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:202:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:201:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:200:13-43
+activity#com.clancy.aticket.GPSForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:205:3-209:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:208:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:207:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:206:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:205:13-36
+activity#com.clancy.aticket.HBoxCameraForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:210:3-214:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:211:4-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:213:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:212:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:210:13-43
+activity#com.clancy.aticket.HBoxDownloadForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:215:3-219:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:217:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:218:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:216:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:215:13-45
+activity#com.clancy.aticket.HBoxSelectLotForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:220:3-224:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:222:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:223:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:221:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:220:13-46
+activity#com.clancy.aticket.HBoxUploadForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:225:3-229:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:227:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:228:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:226:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:225:13-43
+activity#com.clancy.aticket.HonorCashForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:230:3-234:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:232:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:233:4-52
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:231:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:230:13-42
+activity#com.clancy.aticket.HonorLotForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:235:3-239:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:237:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:238:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:236:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:235:13-41
+activity#com.clancy.aticket.IPAddressForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:240:3-244:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:242:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:243:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:241:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:240:13-42
+activity#com.clancy.aticket.LAMTAPermitForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:245:3-249:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:247:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:248:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:246:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:245:13-44
+activity#com.clancy.aticket.LanguageForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:250:3-254:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:252:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:253:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:251:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:250:13-41
+activity#com.clancy.aticket.LastFourForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:255:3-259:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:257:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:258:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:256:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:255:13-41
+activity#com.clancy.aticket.LicColorForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:260:3-264:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:262:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:263:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:261:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:260:13-41
+activity#com.clancy.aticket.LGStreetForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:265:3-269:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:267:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:268:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:266:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:265:13-41
+activity#com.clancy.aticket.LGStreetSpinForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:270:3-274:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:272:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:273:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:271:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:270:13-45
+activity#com.clancy.aticket.MakeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:275:3-279:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:277:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:278:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:276:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:275:13-37
+activity#com.clancy.aticket.MeterForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:280:3-284:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:282:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:283:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:281:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:280:13-38
+activity#com.clancy.aticket.MonthForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:285:3-289:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:287:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:288:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:286:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:285:13-38
+activity#com.clancy.aticket.MultipleChalksForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:290:3-294:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:292:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:293:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:291:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:290:13-47
+activity#com.clancy.aticket.NextLastForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:295:3-299:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:298:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:297:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:296:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:295:13-41
+activity#com.clancy.aticket.NewPermitForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:300:3-304:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:302:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:303:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:301:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:300:13-42
+activity#com.clancy.aticket.NewPlateTypeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:305:3-309:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:307:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:308:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:306:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:305:13-45
+activity#com.clancy.aticket.NumberForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:310:3-314:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:312:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:313:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:311:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:310:13-39
+activity#com.clancy.aticket.NYVinForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:315:3-319:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:317:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:318:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:316:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:315:13-38
+activity#com.clancy.aticket.OfficerForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:320:3-324:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:322:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:323:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:321:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:320:13-40
+activity#com.clancy.aticket.OfflinePasswordForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:325:3-329:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:327:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:328:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:326:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:325:13-48
+activity#com.clancy.aticket.ParkByPhoneForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:330:3-334:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:332:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:333:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:331:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:330:13-44
+activity#com.clancy.aticket.PasswordForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:335:3-339:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:337:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:338:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:336:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:335:13-41
+activity#com.clancy.aticket.PermitForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:340:3-344:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:342:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:343:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:341:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:340:13-39
+activity#com.clancy.aticket.PermitHistoryForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:345:3-349:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:347:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:348:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:346:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:345:13-46
+activity#com.clancy.aticket.PlateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:350:3-354:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:352:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:353:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:351:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:350:13-38
+activity#com.clancy.aticket.PlateHistoryForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:355:3-359:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:357:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:358:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:356:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:355:13-45
+activity#com.clancy.aticket.PlateTypeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:360:3-364:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:362:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:363:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:361:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:360:13-42
+activity#com.clancy.aticket.PlateYearForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:365:3-369:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:367:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:368:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:366:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:365:13-42
+activity#com.clancy.aticket.PrintForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:370:3-374:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:372:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:373:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:371:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:370:13-38
+activity#com.clancy.aticket.PrintSelectForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:375:3-379:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:377:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:378:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:376:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:375:13-44
+activity#com.clancy.aticket.RatesForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:380:3-384:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:381:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:383:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:382:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:380:13-38
+activity#com.clancy.aticket.RichmondNumberForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:385:3-389:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:387:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:388:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:386:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:385:13-47
+activity#com.clancy.aticket.RefreshForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:390:3-394:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:392:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:393:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:391:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:390:13-40
+activity#com.clancy.aticket.SelFuncForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:395:3-398:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:397:4-40
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:396:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:395:13-40
+activity#com.clancy.aticket.ShowTimeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:399:3-403:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:401:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:402:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:400:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:399:13-41
+activity#com.clancy.aticket.SignatureCaptureForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:404:3-408:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:406:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:407:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:405:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:404:13-49
+activity#com.clancy.aticket.StateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:409:3-413:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:411:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:412:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:410:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:409:13-38
+activity#com.clancy.aticket.StemForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:414:3-418:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:416:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:417:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:415:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:414:13-37
+activity#com.clancy.aticket.StickerForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:419:3-423:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:421:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:422:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:420:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:419:13-40
+activity#com.clancy.aticket.StreetForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:424:3-428:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:426:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:427:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:425:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:424:13-39
+activity#com.clancy.aticket.StreetTypeForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:429:3-433:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:431:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:432:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:430:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:429:13-43
+activity#com.clancy.aticket.SurveyDefaultStateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:434:3-438:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:436:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:437:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:435:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:434:13-51
+activity#com.clancy.aticket.SurveyPassDataForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:439:3-443:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:441:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:442:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:440:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:439:13-47
+activity#com.clancy.aticket.SurveyPassForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:444:3-448:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:445:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:447:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:446:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:444:13-43
+activity#com.clancy.aticket.SurveySelectRouteForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:449:3-453:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:450:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:452:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:451:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:449:13-50
+activity#com.clancy.aticket.SurveySelFuncForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:454:3-457:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:456:4-40
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:455:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:454:13-46
+activity#com.clancy.aticket.SurveyUpdateRoutesForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:458:3-462:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:459:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:461:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:460:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:458:13-51
+activity#com.clancy.aticket.SurveyUploadRouteFilesForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:463:3-467:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:465:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:466:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:464:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:463:13-55
+activity#com.clancy.aticket.SwitchForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:468:3-471:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:470:4-40
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:469:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:468:13-39
+activity#com.clancy.aticket.TempExpireForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:472:3-476:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:474:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:475:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:473:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:472:13-43
+activity#com.clancy.aticket.TempPlateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:477:3-481:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:479:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:480:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:478:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:477:13-42
+activity#com.clancy.aticket.TicketPromptForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:482:3-486:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:484:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:485:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:483:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:482:13-45
+activity#com.clancy.aticket.TicketSpeechForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:487:3-491:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:489:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:490:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:488:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:487:13-45
+activity#com.clancy.aticket.UnitNumberForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:492:3-496:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:494:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:495:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:493:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:492:13-43
+activity#com.clancy.aticket.UploadBackgroundForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:497:3-501:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:499:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:500:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:498:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:497:13-49
+activity#com.clancy.aticket.UploadForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:502:3-506:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:504:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:505:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:503:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:502:13-39
+activity#com.clancy.aticket.VehicleHistoryForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:507:3-511:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:509:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:510:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:508:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:507:13-47
+activity#com.clancy.aticket.VinForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:512:3-516:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:514:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:515:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:513:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:512:13-36
+activity#com.clancy.aticket.VirtPermForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:517:3-521:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:519:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:520:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:518:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:517:13-41
+activity#com.clancy.aticket.ViolateForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:522:3-526:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:524:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:525:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:523:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:522:13-40
+activity#com.clancy.aticket.WiFiOnForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:527:3-531:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:529:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:530:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:528:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:527:13-39
+activity#com.clancy.aticket.XMeterForm
+ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:532:3-536:14
+	android:screenOrientation
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:534:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:535:4-51
+	android:theme
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:533:4-51
+	android:name
+		ADDED from C:\Users\JRB.CLANCY\AndroidStudioProjects\Aticket\app\src\main\AndroidManifest.xml:532:13-39

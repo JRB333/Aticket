@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/text_white" >
+
+    <ImageView
+        android:id="@+id/pageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/clancy">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/lblGUITitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pageIcon"
+        android:layout_marginTop="10dp"
+        android:text="@string/select_function_label"
+        android:textColor="#ff000000"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblFuncTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblGUITitle"
+        android:layout_marginTop="5dp"
+        android:text="Update All Route Files"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_below="@+id/lblFuncTitle"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="false"
+        android:text="Get New Route Data From Server"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRefreshing"
+        android:text="Importing New Route Data..."
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/btnUpdate"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+</RelativeLayout>

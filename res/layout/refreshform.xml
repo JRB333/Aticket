@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget37"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:padding="10dp">
+
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/buttonESC"
+     android:layout_alignRight="@+id/TextImageWidth"
+     android:layout_alignTop="@+id/buttonESC"
+     android:contentDescription="@string/image_name"
+     android:src="@drawable/clancy1" >
+
+</ImageView>
+ <TextView android:text="@string/refresh_data" android:textStyle="bold" android:textSize="24sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ff000000" android:id="@+id/widgetRefresh" android:layout_below="@+id/imageView1" android:layout_alignLeft="@+id/imageView1"></TextView>
+
+          <TextView
+         android:id="@+id/TextImageWidth"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"         
+         android:text="@string/image_width"
+         android:textColor="#ff000000"
+         android:textSize="18sp" 
+         android:visibility="invisible"/>
+
+          <Button
+              android:id="@+id/buttonESC"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:text="@string/app_esc"
+              android:textSize="20sp"
+              android:textStyle="bold" android:visibility="invisible"/>
+
+</RelativeLayout>

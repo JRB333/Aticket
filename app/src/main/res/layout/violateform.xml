@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <Button
+        android:id="@+id/buttonESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonESC"
+        android:layout_alignLeft="@+id/widgetEnterViolate"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:layout_alignTop="@+id/buttonESC"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editTextViolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_toLeftOf="@+id/checkBox1"
+        android:layout_toRightOf="@+id/widgetEnterViolate"
+        android:editable="false"
+        android:inputType="textCapCharacters"
+        android:maxLength="3"
+        android:textColorHighlight="#A6D48D" 
+        android:text="@string/violcode"
+        android:textSize="28sp"
+        android:textStyle="bold" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/widgetEnterViolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:text="@string/violation"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextViewDesc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/widgetEnterViolate"
+        android:layout_below="@+id/editTextViolate"
+        android:lines="1"
+        android:text="@string/desc1"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextViewDesc1"
+        android:layout_below="@+id/TextViewDesc1"
+        android:lines="1"
+        android:text="@string/desc2"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/key_back1"
+        android:keyTextColor="#ff000000"
+        android:keyTextSize="30sp"
+        android:shadowColor="#ffFFFFFF" />
+
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/buttonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/buttonEnter"
+        android:layout_alignBottom="@+id/buttonEnter"     
+        android:src="@drawable/leftarrow"/>
+
+    <Button
+        android:id="@+id/buttonEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewDesc2"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonEnter"
+        android:layout_alignBottom="@+id/buttonEnter"  
+        android:layout_toRightOf="@+id/buttonPrevious"
+        android:src="@drawable/rightarrow" />
+
+    <TextView
+        android:id="@+id/textViewOrdinance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editTextViolate"
+        android:layout_toRightOf="@+id/editTextViolate"
+        android:lines="1"
+        android:layout_marginTop="15dp"
+        android:text="@string/ordinance"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonESC"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Override"
+        android:textSize="16dp"
+        android:textColor="#ff000000"/>
+
+</RelativeLayout>

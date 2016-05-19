@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.clancy.aticket"
+      android:versionCode="220"
+      android:versionName="220.0"
+      >
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />    
+    <uses-permission android:name="android.permission.FLASHLIGHT" />         
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>  
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />  
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    
+    <supports-screens android:resizeable="false" 
+                      android:smallScreens="true"
+                      android:normalScreens="true"  
+                      android:largeScreens= "false"
+                      android:anyDensity="false"/>
+
+  
+    <application android:icon="@drawable/clancyicon" >
+	<receiver android:name=".WifiReceiver">
+            <intent-filter>
+                    <action android:name="android.net.wifi.STATE_CHANGE"/>
+                    <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE" />
+            </intent-filter>
+	</receiver> 
+        
+        <activity android:name=".AticketActivity"
+                  android:label="@string/app_name"
+	              android:theme="@android:style/Theme.NoTitleBar"                 
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdditionalComment1Form"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".AdditionalComment2Form"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".AdditionalComment3Form"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+  		<activity android:name=".AddFeeForm"
+		    android:screenOrientation="portrait"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".BadgeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".BeatForm"
+		    android:screenOrientation="portrait"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>   		
+		<activity android:name=".BodyForm"
+		    android:screenOrientation="portrait"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 
+		<activity android:name=".BootForm"
+		    android:screenOrientation="portrait"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>   
+		<activity android:name=".BuildingForm"
+		    android:screenOrientation="portrait"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>  		
+		<activity android:name=".CameraForm"
+		    android:screenOrientation="landscape"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>  
+		<activity android:name=".ChalkTimeForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>			
+		<activity android:name=".ClancyJForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>        
+		<activity android:name=".ChalkForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".ColorForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".CommentForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 
+		<activity android:name=".Comment1Form"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 
+		<activity android:name=".Comment2Form"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 	
+		<activity android:name=".Comment3Form"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 
+		<activity android:name=".CountForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>	
+		<activity android:name=".CourtDateForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>			
+		<activity android:name=".CrossStreetForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".CustomDateForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".CustomTimeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".Defines">
+		</activity>
+		<activity android:name=".DeptForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".DetailsForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".DirectionForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".DisplaySpaceForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>			
+		<activity android:name=".EmailForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>				
+		<activity android:name=".GetBootForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".GoogleMapsForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>	
+		<activity android:name=".GPSForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>	
+		<activity android:name=".HBoxCameraForm"
+		    android:screenOrientation="landscape"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 		
+		<activity android:name=".HBoxDownloadForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".HBoxSelectLotForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".HBoxUploadForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".HonorCashForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysVisible">
+		</activity> 
+		<activity android:name=".HonorLotForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity> 		
+		<activity android:name=".IPAddressForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".LAMTAPermitForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".LanguageForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".LastFourForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".LicColorForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".LGStreetForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".LGStreetSpinForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".MakeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".MeterForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>					
+		<activity android:name=".MonthForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".MultipleChalksForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".NextLastForm"
+		    android:theme="@android:style/Theme.NoTitleBar" 
+		    android:windowSoftInputMode="stateAlwaysHidden" 
+		    android:screenOrientation="portrait">
+		</activity>	
+		<activity android:name=".NewPermitForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".NewPlateTypeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".NumberForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".NYVinForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".OfficerForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".OfflinePasswordForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".ParkByPhoneForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".PasswordForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".PermitForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".PlateForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".PlateHistoryForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".PlateTypeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>				
+		<activity android:name=".PlateYearForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".PrintForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".PrintSelectForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+  		<activity android:name=".RatesForm"
+		    android:screenOrientation="portrait"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".RichmondNumberForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>					
+		<activity android:name=".RefreshForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".SelFuncForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".ShowTimeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".StateForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".StickerForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".StemForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".StreetForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".StreetTypeForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".SwitchForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait">
+		</activity>	
+		<activity android:name=".TempExpireForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>
+		<activity android:name=".TempPlateForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".TicketPromptForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".TicketSpeechForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".UnitNumberForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".UploadForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".UploadBackgroundForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>			
+		<activity android:name=".VehicleHistoryForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".VirtPermForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".VinForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".ViolateForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>	
+		<activity android:name=".XMeterForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>		
+		<activity android:name=".WiFiOnForm"
+		    android:theme="@android:style/Theme.NoTitleBar"  
+		    android:screenOrientation="portrait"
+		    android:windowSoftInputMode="stateAlwaysHidden">
+		</activity>				
+    </application>
+
+</manifest>

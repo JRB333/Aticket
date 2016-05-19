@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <Button
+        android:id="@+id/buttonESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonESC"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:layout_alignTop="@+id/buttonESC"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/functionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible">
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/TextViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="15dp"
+        android:text="@string/messagechalk"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewCurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextViewTime"
+        android:layout_alignBottom="@+id/TextViewTime"
+        android:layout_alignParentRight="true"
+        android:text="@string/messagecurrent"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextViewTime"
+        android:text="@string/messagetime"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignLeft="@+id/TextViewCurrent"
+        android:text="@string/messagenew"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="62dp"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/chalkIssueTicket"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Issue Ticket"
+        android:layout_below="@+id/buttonEnter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"/>
+</RelativeLayout>

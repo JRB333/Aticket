@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="horizontal" >
+        <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="380dp"
+        android:layout_height="285dp"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" >
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="140dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/camera_preview"
+        android:paddingTop="2dp"
+        android:src="@drawable/pic1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:paddingTop="2dp"
+        android:src="@drawable/pic2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="85dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:paddingTop="2dp"
+        android:src="@drawable/pic3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:src="@drawable/next" />
+
+</RelativeLayout>

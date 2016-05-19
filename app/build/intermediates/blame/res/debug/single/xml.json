@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\surveykb.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\surveykb.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\numbers.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\numbers.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\secondary.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\full.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\full.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\license.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\license.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ipkey.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\ipkey.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\numbermic.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\numbermic.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\license_small.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\license_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\sbpdstreet.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\sbpdstreet.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\alphaonly.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\alphaonly.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\nsew.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\nsew.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\xml\\numonly.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\xml\\numonly.xml"
+    }
+]

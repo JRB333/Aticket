@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget37"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:padding="10px">
+ <Button android:id="@+id/buttonESC" android:textSize="20sp" android:textStyle="bold" android:layout_height="wrap_content" android:text="@string/app_esc" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></Button>
+ <TextView android:textSize="24sp" android:text="Call Clancy to have them set up another range of citations for this unit. Press Enter when they tell you to." android:layout_height="wrap_content" android:textStyle="bold" android:id="@+id/widgetEnterPassword" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:layout_alignRight="@+id/buttonESC"></TextView>
+ <ImageView android:src="@drawable/clancy" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignLeft="@+id/widgetEnterPassword"></ImageView>
+ <Button android:id="@+id/buttonEnter" android:textStyle="bold" android:layout_width="wrap_content" android:textSize="20sp" android:layout_height="wrap_content" android:text="  Enter  " android:layout_below="@+id/widgetEnterPassword" android:layout_alignRight="@+id/widgetEnterPassword" android:layout_marginTop="15dp"></Button>
+</RelativeLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <ImageView
+        android:id="@+id/pageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/clancy">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/lblGUITitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pageIcon"
+        android:layout_marginTop="5dp"
+        android:text="@string/enter_pass_data_title"
+        android:textColor="#ff000000"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnIssueTicket"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Issue Ticket"
+        android:layout_alignBottom="@+id/txtFirstRecordedTime"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/lblStreet"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/lblGUITitle"
+        android:layout_alignParentLeft="true"
+        android:text="@string/street"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtStreet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignBottom="@+id/lblStreet"
+        android:layout_toRightOf="@id/lblStreet"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblSpaceMeter"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/lblStreet"
+        android:layout_alignParentLeft="true"
+        android:text="@string/space_meter"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtSpaceMeter"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignBottom="@+id/lblSpaceMeter"
+        android:layout_toRightOf="@id/lblSpaceMeter"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblPriorPlate"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/lblSpaceMeter"
+        android:layout_alignParentLeft="true"
+        android:text="@string/prior_plate"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtPriorPlate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignBottom="@+id/lblPriorPlate"
+        android:layout_toRightOf="@id/lblPriorPlate"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblFirstRecorded"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/lblPriorPlate"
+        android:layout_alignParentLeft="true"
+        android:text="First Recorded:"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtFirstRecordedTime"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignBottom="@+id/lblFirstRecorded"
+        android:layout_toRightOf="@id/lblFirstRecorded"
+        android:layout_alignLeft="@id/txtPriorPlate"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblFirstRecorded"
+        android:layout_alignParentLeft="true"
+        android:text="@string/plate"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editEnterPlate"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblPlate"
+        android:inputType="textCapCharacters"
+        android:layout_alignParentRight="true"
+        android:maxLength="8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lblFirstRecorded" />
+
+    <TextView
+        android:id="@+id/lblState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lblPlate"
+        android:layout_alignParentLeft="true"
+        android:text="@string/state"
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinEnterState"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/lblState"
+        android:layout_toRightOf="@+id/lblState"
+        android:entries="@array/state_array"
+        android:layout_marginLeft="50dp"
+        android:background="@android:drawable/btn_dropdown"/>
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/spinEnterState"
+        android:layout_toRightOf="@id/spinEnterState"
+        android:text=" "
+        android:textColor="#ff000000"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnPassComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinEnterState"
+        android:focusable="true"
+        android:layout_alignParentLeft="true"
+        android:focusableInTouchMode="false"
+        android:text="Pass Completed"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/btnPassComplete"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:text="@string/btn_next"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPassComplete"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/white"
+        android:horizontalGap="1dp"
+        android:verticalGap="1dp"
+        android:keyHeight="3dp"
+        android:keyWidth="3dp"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/key_back1_small"
+        android:keyTextColor="#ff000000"
+        android:keyTextSize="20sp"
+        android:shadowColor="#ffFFFFFF" />
+
+    <Button
+        android:id="@+id/btnPriorPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:text=" Prior "
+        android:textStyle="bold"
+        android:textSize="22sp" >
+    </Button>
+</RelativeLayout>

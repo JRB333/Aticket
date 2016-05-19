@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <ImageView
+        android:id="@+id/pageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/clancy">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnESC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_esc"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/lblGUITitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pageIcon"
+        android:layout_marginTop="10dp"
+        android:text="@string/enter_pass_data_title"
+        android:textColor="#ff000000"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblSelectRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblGUITitle"
+        android:layout_marginTop="60dp"
+        android:text="Select Route Name/Number"
+        android:textColor="#ff000000"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinRoutes"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lblSelectRoute"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:background="@android:drawable/btn_dropdown"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/spinRoutes"
+        android:layout_alignBottom="@+id/spinRoutes"
+        android:layout_marginTop="27dp"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:text="@string/btn_next"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget37"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+>
+ <Button android:id="@+id/buttonESC" 
+     android:layout_marginTop="4dp" 
+     android:textSize="20sp" 
+     android:textStyle="bold" 
+     android:layout_height="wrap_content" 
+     android:text="@string/app_esc" 
+     android:layout_width="wrap_content" 
+     android:layout_alignParentTop="true" 
+     android:layout_alignParentRight="true"></Button>
+ 
+ <TextView android:textSize="24sp" 
+     android:text="@string/enter_unit_number" 
+     android:layout_height="wrap_content" 
+     android:textStyle="bold" 
+     android:id="@+id/widgetEnterNumber" 
+     android:textColor="#ff000000" 
+     android:layout_width="wrap_content" 
+     android:layout_below="@+id/imageView1" 
+     android:layout_alignParentLeft="true" 
+     android:layout_alignRight="@+id/buttonESC"
+     android:layout_marginTop="1dp">     
+ </TextView>
+ 
+ <EditText
+     android:id="@+id/editTextNumber"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/widgetEnterNumber"
+     android:layout_alignRight="@+id/buttonESC"
+     android:layout_below="@+id/widgetEnterNumber"
+     android:editable="false"
+     android:inputType="textCapCharacters"
+     android:maxLength="4"
+     android:textSize="22sp"
+     android:textColorHighlight="#A6D48D" 
+     android:textStyle="bold" >
+</EditText>
+
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/buttonESC"
+     android:layout_alignLeft="@+id/widgetEnterNumber"
+     android:layout_alignRight="@+id/TextImageWidth"
+     android:layout_alignTop="@+id/buttonESC"
+     android:contentDescription="@string/image_name"
+     android:src="@drawable/clancy1" >
+
+</ImageView>
+ 
+      <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/key_back1"
+        android:keyTextColor="#ff000000"
+        android:keyTextSize="30sp"
+        android:shadowColor="#ffFFFFFF" />    
+        
+         <TextView
+         android:id="@+id/TextImageWidth"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"         
+         android:text="@string/image_width"
+         android:textColor="#ff000000"
+         android:textSize="18sp" 
+         android:visibility="invisible"/>
+
+         <TextView
+             android:id="@+id/widgetEnterPassword"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/editTextNumber"
+             android:text="Call Clancy to obtain a range of citation numbers. 303-759-4276"
+             android:textColor="#ff000000"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/buttonEnter"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_below="@+id/widgetEnterPassword"
+             android:text="@string/enter"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+</RelativeLayout>

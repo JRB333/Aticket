@@ -1,0 +1,22 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="14.28%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="16%"    >
+
+    <Row>
+        <Key android:codes="55" android:keyLabel="NW" android:keyWidth="33%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="56" android:keyLabel="N" android:keyWidth="34%p"/>
+        <Key android:codes="57" android:keyLabel="NE" android:keyWidth="33%p" android:keyEdgeFlags="right"/>
+    </Row>  
+    <Row>
+        <Key android:codes="52" android:keyLabel="W" android:keyWidth="33%p" android:keyEdgeFlags="left" />
+        <Key android:codes="53" android:keyLabel="NONE" android:keyWidth="34%p" />
+        <Key android:codes="54" android:keyLabel="E" android:keyWidth="33%p" android:keyEdgeFlags="right"/>       
+    </Row>      
+    <Row>
+        <Key android:codes="49" android:keyLabel="SW" android:keyWidth="33%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="S" android:keyWidth="34%p"/>
+        <Key android:codes="51" android:keyLabel="SE" android:keyWidth="33%p"  android:keyEdgeFlags="right"/>
+    </Row>        
+</Keyboard>

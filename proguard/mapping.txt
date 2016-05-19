@@ -1,0 +1,3309 @@
+android.annotation.SuppressLint -> a:
+    java.lang.String[] value() -> a
+android.annotation.TargetApi -> b:
+    int value() -> a
+com.clancy.aticket.AddFeeForm -> com.clancy.aticket.AddFeeForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.AddFeeForm) -> a
+com.clancy.aticket.AddFeeForm$1 -> c:
+    com.clancy.aticket.AddFeeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AddFeeForm$2 -> d:
+    com.clancy.aticket.AddFeeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AddFeeForm$3 -> e:
+    com.clancy.aticket.AddFeeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.AdditionalComment1Form -> com.clancy.aticket.AdditionalComment1Form:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.AdditionalComment1Form) -> a
+com.clancy.aticket.AdditionalComment1Form$1 -> f:
+    com.clancy.aticket.AdditionalComment1Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment1Form$2 -> g:
+    com.clancy.aticket.AdditionalComment1Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment1Form$3 -> h:
+    com.clancy.aticket.AdditionalComment1Form this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$comment -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment1Form$4 -> i:
+    com.clancy.aticket.AdditionalComment1Form this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.AdditionalComment2Form -> com.clancy.aticket.AdditionalComment2Form:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.AdditionalComment2Form) -> a
+com.clancy.aticket.AdditionalComment2Form$1 -> j:
+    com.clancy.aticket.AdditionalComment2Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment2Form$2 -> k:
+    com.clancy.aticket.AdditionalComment2Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment2Form$3 -> l:
+    com.clancy.aticket.AdditionalComment2Form this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$comment -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment2Form$4 -> m:
+    com.clancy.aticket.AdditionalComment2Form this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.AdditionalComment3Form -> com.clancy.aticket.AdditionalComment3Form:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.AdditionalComment3Form) -> a
+com.clancy.aticket.AdditionalComment3Form$1 -> n:
+    com.clancy.aticket.AdditionalComment3Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment3Form$2 -> o:
+    com.clancy.aticket.AdditionalComment3Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment3Form$3 -> p:
+    com.clancy.aticket.AdditionalComment3Form this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$comment -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AdditionalComment3Form$4 -> q:
+    com.clancy.aticket.AdditionalComment3Form this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.AticketActivity -> com.clancy.aticket.AticketActivity:
+    java.lang.String EncryptedCredentials -> a
+    java.lang.String URLString -> b
+    java.lang.String AticketName -> c
+    android.telephony.TelephonyManager Tel -> d
+    com.clancy.aticket.AticketActivity$ClancyPhoneStateListener MyListener -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+    java.lang.String GetNetwork(android.content.Context) -> a
+com.clancy.aticket.AticketActivity$1 -> r:
+    com.clancy.aticket.AticketActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AticketActivity$2 -> s:
+    com.clancy.aticket.AticketActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AticketActivity$3 -> t:
+    com.clancy.aticket.AticketActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.AticketActivity$4 -> u:
+    com.clancy.aticket.AticketActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.clancy.aticket.AticketActivity access$0(com.clancy.aticket.AticketActivity$4) -> a
+com.clancy.aticket.AticketActivity$4$1 -> v:
+    com.clancy.aticket.AticketActivity$4 this$1 -> a
+    void run() -> run
+com.clancy.aticket.AticketActivity$5 -> w:
+    com.clancy.aticket.AticketActivity this$0 -> a
+    android.widget.CheckBox val$Offline -> b
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.clancy.aticket.AticketActivity$ClancyPhoneStateListener -> x:
+    com.clancy.aticket.AticketActivity this$0 -> a
+    void onSignalStrengthsChanged(android.telephony.SignalStrength) -> onSignalStrengthsChanged
+com.clancy.aticket.BadgeForm -> com.clancy.aticket.BadgeForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.BadgeForm) -> a
+com.clancy.aticket.BadgeForm$1 -> y:
+    com.clancy.aticket.BadgeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BadgeForm$2 -> z:
+    com.clancy.aticket.BadgeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BadgeForm$3 -> A:
+    com.clancy.aticket.BadgeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.BarCodes -> B:
+    byte[] HorizontalCode39Asterik -> a
+    byte[] HorizontalCode39Space -> b
+    byte[] HorizontalCode39One -> c
+    byte[] HorizontalCode39Two -> d
+    byte[] HorizontalCode39Three -> e
+    byte[] HorizontalCode39Four -> f
+    byte[] HorizontalCode39Five -> g
+    byte[] HorizontalCode39Six -> h
+    byte[] HorizontalCode39Seven -> i
+    byte[] HorizontalCode39Eight -> j
+    byte[] HorizontalCode39Nine -> k
+    byte[] HorizontalCode39Zero -> l
+    byte[] HorizontalCode39A -> m
+    byte[] HorizontalCode39B -> n
+    byte[] HorizontalCode39C -> o
+    byte[] HorizontalCode39D -> p
+    byte[] HorizontalCode39E -> q
+    byte[] HorizontalCode39F -> r
+    byte[] HorizontalCode39G -> s
+    byte[] HorizontalCode39H -> t
+    byte[] HorizontalCode39I -> u
+    byte[] HorizontalCode39J -> v
+    byte[] HorizontalCode39K -> w
+    byte[] HorizontalCode39L -> x
+    byte[] HorizontalCode39M -> y
+    byte[] HorizontalCode39N -> z
+    byte[] HorizontalCode39O -> A
+    byte[] HorizontalCode39P -> B
+    byte[] HorizontalCode39Q -> C
+    byte[] HorizontalCode39R -> D
+    byte[] HorizontalCode39S -> E
+    byte[] HorizontalCode39T -> F
+    byte[] HorizontalCode39U -> G
+    byte[] HorizontalCode39V -> H
+    byte[] HorizontalCode39W -> I
+    byte[] HorizontalCode39X -> J
+    byte[] HorizontalCode39Y -> K
+    byte[] HorizontalCode39Z -> L
+    void HorizontalCode39(java.lang.String,java.io.OutputStream) -> a
+    void DefineOnlyUsedCharacters(java.lang.String,java.io.OutputStream) -> b
+com.clancy.aticket.BeatForm -> com.clancy.aticket.BeatForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.BeatForm) -> a
+com.clancy.aticket.BeatForm$1 -> C:
+    com.clancy.aticket.BeatForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BeatForm$2 -> D:
+    com.clancy.aticket.BeatForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BeatForm$3 -> E:
+    com.clancy.aticket.BeatForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.BodyForm -> com.clancy.aticket.BodyForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.BodyForm) -> a
+    void access$1(com.clancy.aticket.BodyForm) -> b
+    void access$2(com.clancy.aticket.BodyForm) -> c
+    void access$3(com.clancy.aticket.BodyForm,java.lang.String) -> a
+com.clancy.aticket.BodyForm$1 -> F:
+    com.clancy.aticket.BodyForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BodyForm$2 -> G:
+    com.clancy.aticket.BodyForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BodyForm$3 -> H:
+    com.clancy.aticket.BodyForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BodyForm$4 -> I:
+    com.clancy.aticket.BodyForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BodyForm$5 -> J:
+    com.clancy.aticket.BodyForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.BodyForm$6 -> K:
+    com.clancy.aticket.BodyForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.BootForm -> com.clancy.aticket.BootForm:
+    void EnterClick() -> a
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.BootForm) -> a
+    void access$1(com.clancy.aticket.BootForm,java.lang.String) -> a
+com.clancy.aticket.BootForm$1 -> L:
+    com.clancy.aticket.BootForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BootForm$2 -> M:
+    com.clancy.aticket.BootForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.BootForm$3 -> N:
+    com.clancy.aticket.BootForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.BootForm$4 -> O:
+    com.clancy.aticket.BootForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.BootRoutines -> P:
+    int GetBootList(java.lang.String,int,int,android.content.Context) -> a
+    void SeekTheReason(java.lang.String,android.content.Context) -> a
+com.clancy.aticket.BuildConfig -> Q:
+    boolean DEBUG -> a
+com.clancy.aticket.BuildingForm -> com.clancy.aticket.BuildingForm:
+    android.os.Handler mHandler -> a
+    java.lang.Runnable mExpand -> b
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.BuildingForm$1 -> R:
+    com.clancy.aticket.BuildingForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.CameraForm -> com.clancy.aticket.CameraForm:
+    android.hardware.Camera mCamera -> d
+    android.os.Handler mHandler -> e
+    java.lang.String PictureName -> a
+    boolean Processing -> b
+    java.lang.Runnable mCopyImages -> f
+    android.hardware.Camera$AutoFocusCallback autoFocusCallback -> c
+    android.hardware.Camera$PictureCallback mPicture -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy
+    void initCamera() -> c
+    void releaseCamera() -> d
+    android.hardware.Camera getCameraInstance() -> a
+    java.io.File getOutputMediaFile() -> e
+    android.hardware.Camera access$0(com.clancy.aticket.CameraForm) -> a
+    android.hardware.Camera$PictureCallback access$1(com.clancy.aticket.CameraForm) -> b
+    java.io.File access$2() -> b
+    void access$3(com.clancy.aticket.CameraForm) -> c
+    android.os.Handler access$4(com.clancy.aticket.CameraForm) -> d
+    java.lang.Runnable access$5(com.clancy.aticket.CameraForm) -> e
+com.clancy.aticket.CameraForm$1 -> S:
+    com.clancy.aticket.CameraForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.CameraForm$2 -> T:
+    com.clancy.aticket.CameraForm this$0 -> a
+    void onAutoFocus(boolean,android.hardware.Camera) -> onAutoFocus
+com.clancy.aticket.CameraForm$3 -> U:
+    com.clancy.aticket.CameraForm this$0 -> a
+    void onPictureTaken(byte[],android.hardware.Camera) -> onPictureTaken
+com.clancy.aticket.CameraForm$4 -> V:
+    com.clancy.aticket.CameraForm this$0 -> a
+    android.widget.ImageView val$pic1View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CameraForm$5 -> W:
+    com.clancy.aticket.CameraForm this$0 -> a
+    android.widget.ImageView val$pic2View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CameraForm$6 -> X:
+    com.clancy.aticket.CameraForm this$0 -> a
+    android.widget.ImageView val$pic3View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CameraForm$7 -> Y:
+    com.clancy.aticket.CameraForm this$0 -> a
+    android.widget.ImageView val$pic4View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CameraPreviewClass -> com.clancy.aticket.CameraPreviewClass:
+    java.lang.String TAG -> a
+    android.view.SurfaceHolder mHolder -> b
+    android.hardware.Camera mCamera -> c
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+com.clancy.aticket.ChalkForm -> com.clancy.aticket.ChalkForm:
+    android.inputmethodservice.KeyboardView keyboardView -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void SeekChalkTicketPlate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void EvansvilleChalkRoutine(java.lang.String,java.lang.String,java.lang.String) -> a
+    void EvansvilleChalkWhileTicketing() -> b
+    void access$0(com.clancy.aticket.ChalkForm) -> a
+com.clancy.aticket.ChalkForm$1 -> Z:
+    com.clancy.aticket.ChalkForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ChalkForm$2 -> aa:
+    com.clancy.aticket.ChalkForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ChalkForm$3 -> ab:
+    com.clancy.aticket.ChalkForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ChalkForm$4 -> ac:
+    com.clancy.aticket.ChalkForm this$0 -> a
+    android.widget.EditText val$Hours -> b
+    android.widget.EditText val$Minutes -> c
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.ChalkForm$5 -> ad:
+    com.clancy.aticket.ChalkForm this$0 -> a
+    android.widget.EditText val$Hours -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.ChalkForm$6 -> ae:
+    com.clancy.aticket.ChalkForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ChalkTimeForm -> com.clancy.aticket.ChalkTimeForm:
+    void DrawTheChalk() -> a
+    void WriteChalkRecord() -> b
+    void SeekChalkPlate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void EvansvilleSeekChalkPlate(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.ChalkTimeForm$1 -> af:
+    com.clancy.aticket.ChalkTimeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CheckBTDevice -> ag:
+    java.lang.String ScanDevice(java.lang.String,android.content.Context) -> a
+com.clancy.aticket.CheckBTDeviceWithOldSupport -> ah:
+    java.lang.String ScanDeviceWithOldSupport(java.lang.String,android.content.Context) -> a
+com.clancy.aticket.ClancyJForm -> com.clancy.aticket.ClancyJForm:
+    android.os.Handler handler -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.ClancyJForm) -> a
+com.clancy.aticket.ClancyJForm$1 -> ai:
+    com.clancy.aticket.ClancyJForm this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.clancy.aticket.ClancyJForm$2 -> aj:
+    com.clancy.aticket.ClancyJForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ClancyJForm$3 -> ak:
+    com.clancy.aticket.ClancyJForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ClancyJForm$4 -> al:
+    com.clancy.aticket.ClancyJForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ColorForm -> com.clancy.aticket.ColorForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.ColorForm) -> a
+    void access$1(com.clancy.aticket.ColorForm) -> b
+    void access$2(com.clancy.aticket.ColorForm) -> c
+    void access$3(com.clancy.aticket.ColorForm,java.lang.String) -> a
+com.clancy.aticket.ColorForm$1 -> am:
+    com.clancy.aticket.ColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ColorForm$2 -> an:
+    com.clancy.aticket.ColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ColorForm$3 -> ao:
+    com.clancy.aticket.ColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ColorForm$4 -> ap:
+    com.clancy.aticket.ColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ColorForm$5 -> aq:
+    com.clancy.aticket.ColorForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ColorForm$6 -> ar:
+    com.clancy.aticket.ColorForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.Comment1Form -> com.clancy.aticket.Comment1Form:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.Comment1Form) -> a
+com.clancy.aticket.Comment1Form$1 -> as:
+    com.clancy.aticket.Comment1Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment1Form$2 -> at:
+    com.clancy.aticket.Comment1Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment1Form$3 -> au:
+    com.clancy.aticket.Comment1Form this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$comment -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment1Form$4 -> av:
+    com.clancy.aticket.Comment1Form this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.Comment2Form -> com.clancy.aticket.Comment2Form:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.Comment2Form) -> a
+com.clancy.aticket.Comment2Form$1 -> aw:
+    com.clancy.aticket.Comment2Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment2Form$2 -> ax:
+    com.clancy.aticket.Comment2Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment2Form$3 -> ay:
+    com.clancy.aticket.Comment2Form this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$comment -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment2Form$4 -> az:
+    com.clancy.aticket.Comment2Form this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.Comment3Form -> com.clancy.aticket.Comment3Form:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.Comment3Form) -> a
+com.clancy.aticket.Comment3Form$1 -> aA:
+    com.clancy.aticket.Comment3Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment3Form$2 -> aB:
+    com.clancy.aticket.Comment3Form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment3Form$3 -> aC:
+    com.clancy.aticket.Comment3Form this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$comment -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Comment3Form$4 -> aD:
+    com.clancy.aticket.Comment3Form this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CommentForm -> com.clancy.aticket.CommentForm:
+    void EnterClick() -> a
+    void EnterClickPlus() -> b
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> c
+    void RightClick() -> d
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.CommentForm) -> a
+    void access$1(com.clancy.aticket.CommentForm) -> b
+    void access$2(com.clancy.aticket.CommentForm) -> c
+    void access$3(com.clancy.aticket.CommentForm) -> d
+    void access$4(com.clancy.aticket.CommentForm,java.lang.String) -> a
+com.clancy.aticket.CommentForm$1 -> aE:
+    com.clancy.aticket.CommentForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CommentForm$2 -> aF:
+    com.clancy.aticket.CommentForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CommentForm$3 -> aG:
+    com.clancy.aticket.CommentForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CommentForm$4 -> aH:
+    com.clancy.aticket.CommentForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CommentForm$5 -> aI:
+    com.clancy.aticket.CommentForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CommentForm$6 -> aJ:
+    com.clancy.aticket.CommentForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CommentForm$7 -> aK:
+    com.clancy.aticket.CommentForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.ConnectionManager -> aL:
+    int MAX_CONNECTIONS -> a
+    java.util.ArrayList active -> b
+    java.util.ArrayList queue -> c
+    com.clancy.aticket.ConnectionManager instance -> d
+    com.clancy.aticket.ConnectionManager getInstance() -> a
+    void push(java.lang.Runnable) -> a
+    void startNext() -> b
+    void didComplete(java.lang.Runnable) -> b
+com.clancy.aticket.CountForm -> com.clancy.aticket.CountForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.CountForm$1 -> aM:
+    com.clancy.aticket.CountForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CountForm$2 -> aN:
+    com.clancy.aticket.CountForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CourtDateForm -> com.clancy.aticket.CourtDateForm:
+    android.inputmethodservice.KeyboardView keyboardView -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.CourtDateForm) -> a
+com.clancy.aticket.CourtDateForm$1 -> aO:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CourtDateForm$2 -> aP:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CourtDateForm$3 -> aQ:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CourtDateForm$4 -> aR:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CourtDateForm$5 -> aS:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CourtDateForm$6 -> aT:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    android.widget.EditText val$Month -> b
+    android.widget.EditText val$Day -> c
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CourtDateForm$7 -> aU:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    android.widget.EditText val$Day -> b
+    android.widget.EditText val$Year -> c
+    android.widget.EditText val$Month -> d
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CourtDateForm$8 -> aV:
+    com.clancy.aticket.CourtDateForm this$0 -> a
+    android.widget.EditText val$Day -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CrossStreetForm -> com.clancy.aticket.CrossStreetForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.CrossStreetForm) -> a
+    void access$1(com.clancy.aticket.CrossStreetForm) -> b
+    void access$2(com.clancy.aticket.CrossStreetForm) -> c
+    void access$3(com.clancy.aticket.CrossStreetForm,java.lang.String) -> a
+com.clancy.aticket.CrossStreetForm$1 -> aW:
+    com.clancy.aticket.CrossStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CrossStreetForm$2 -> aX:
+    com.clancy.aticket.CrossStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CrossStreetForm$3 -> aY:
+    com.clancy.aticket.CrossStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CrossStreetForm$4 -> aZ:
+    com.clancy.aticket.CrossStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CrossStreetForm$5 -> ba:
+    com.clancy.aticket.CrossStreetForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CrossStreetForm$6 -> bb:
+    com.clancy.aticket.CrossStreetForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.CustomDateForm -> com.clancy.aticket.CustomDateForm:
+    android.inputmethodservice.KeyboardView keyboardView -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.CustomDateForm) -> a
+com.clancy.aticket.CustomDateForm$1 -> bc:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CustomDateForm$2 -> bd:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CustomDateForm$3 -> be:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CustomDateForm$4 -> bf:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CustomDateForm$5 -> bg:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CustomDateForm$6 -> bh:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    android.widget.EditText val$Month -> b
+    android.widget.EditText val$Day -> c
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CustomDateForm$7 -> bi:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    android.widget.EditText val$Day -> b
+    android.widget.EditText val$Year -> c
+    android.widget.EditText val$Month -> d
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CustomDateForm$8 -> bj:
+    com.clancy.aticket.CustomDateForm this$0 -> a
+    android.widget.EditText val$Day -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CustomKeyboard -> com.clancy.aticket.CustomKeyboard:
+    android.widget.EditText GlobalTextHandle -> a
+    android.content.Context GlobalContext -> b
+    void PickAKeyboard(android.widget.EditText,java.lang.String,android.content.Context,android.inputmethodservice.KeyboardView) -> a
+    boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent) -> onKey
+    void onKey(int,int[]) -> onKey
+    void onPress(int) -> onPress
+    void onRelease(int) -> onRelease
+    void onText(java.lang.CharSequence) -> onText
+    void swipeDown() -> swipeDown
+    void swipeLeft() -> swipeLeft
+    void swipeRight() -> swipeRight
+    void swipeUp() -> swipeUp
+com.clancy.aticket.CustomTimeForm -> com.clancy.aticket.CustomTimeForm:
+    android.inputmethodservice.KeyboardView keyboardView -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.CustomTimeForm) -> a
+com.clancy.aticket.CustomTimeForm$1 -> bk:
+    com.clancy.aticket.CustomTimeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CustomTimeForm$2 -> bl:
+    com.clancy.aticket.CustomTimeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.CustomTimeForm$3 -> bm:
+    com.clancy.aticket.CustomTimeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CustomTimeForm$4 -> bn:
+    com.clancy.aticket.CustomTimeForm this$0 -> a
+    android.widget.EditText val$Hours -> b
+    android.widget.EditText val$Minutes -> c
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CustomTimeForm$5 -> bo:
+    com.clancy.aticket.CustomTimeForm this$0 -> a
+    android.widget.EditText val$Hours -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.CustomTimeForm$6 -> bp:
+    com.clancy.aticket.CustomTimeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.CustomVibrate -> com.clancy.aticket.CustomVibrate:
+    void VibrateButton(android.content.Context) -> a
+com.clancy.aticket.Defines -> com.clancy.aticket.Defines:
+    java.lang.Class clsClassName -> a
+    android.content.Context contextGlobal -> b
+    android.location.LocationManager locationManager -> c
+    android.location.LocationListener locationListener -> d
+    java.lang.String BackLightMenu -> e
+    java.lang.String CountOfTicketsMenu -> f
+    java.lang.String CountDOfTicketsMenu -> g
+    java.lang.String TimeOfDayMenu -> h
+    java.lang.String TimeNOfDayMenu -> i
+    java.lang.String BootLookupMenu -> j
+    java.lang.String OfficerDataMenu -> k
+    java.lang.String ReprintMenu -> l
+    java.lang.String TicketIssuanceMenu -> m
+    java.lang.String ChalkMenu -> n
+    java.lang.String PermitLookupMenu -> o
+    java.lang.String EndOfDayMenu -> p
+    java.lang.String VirtPermMenu -> q
+    java.lang.String MeterLogMenu -> r
+    java.lang.String GuardMenu -> s
+    java.lang.String PlatesMenu -> t
+    java.lang.String BluetoothMenu -> u
+    java.lang.String HonorBoxMenu -> v
+    java.lang.String AddressBookMenu -> w
+    java.lang.String PlatPermMenu -> x
+    java.lang.String PermPlatMenu -> y
+    java.lang.String RemHonBoxMenu -> z
+    java.lang.String RefreshMenu -> A
+    java.lang.String ParkByPhoneMenu -> B
+    java.lang.String LAMTAPermitMenu -> C
+    java.lang.String VehicleHistoryMenu -> D
+    java.lang.String VehiclePrintoutMenu -> E
+    java.lang.String ParkingIOUMenu -> F
+    java.lang.String ParkingIOUReprintMenu -> G
+    java.lang.String ValidLotLookupMenu -> H
+    java.lang.String TicketSpeechMenu -> I
+    java.lang.String CurrentPrintVal -> J
+    java.lang.String CurrentTicOrderVal -> K
+    java.lang.String CurrentOffOrderVal -> L
+    java.lang.String CurrentSerialRefVal -> M
+    java.lang.String CurrentChaOrderVal -> N
+    java.lang.String CurrentMetOrderVal -> O
+    java.lang.String CurrentHBoxOrderVal -> P
+    java.lang.String NumberOfSpacesVal -> Q
+    java.lang.String BluetoothRefVal -> R
+    java.lang.String CurrentRemBoxOrderVal -> S
+    java.lang.String NumStartSpaceVal -> T
+    java.lang.String CurrentRatesOrderVal -> U
+    java.lang.String HBoxCurrentSpaceVal -> V
+    java.lang.String NoTicketReasonSpaceVal -> W
+    java.lang.String CurrentIOUOrderVal -> X
+    java.lang.String TicketLayout -> Y
+    java.lang.String AttestationLayout -> Z
+    java.lang.String ReprintTicket -> aa
+    java.lang.String IOULayout -> ab
+    java.lang.String PlateKeyStroke -> ac
+    java.lang.String VinKeyStroke -> ad
+    java.lang.String StateKeyStroke -> ae
+    java.lang.String YearKeyStroke -> af
+    java.lang.String ViolateKeyStroke -> ag
+    java.lang.String CommentKeyStroke -> ah
+    java.lang.String MakeKeyStroke -> ai
+    java.lang.String BodyKeyStroke -> aj
+    java.lang.String NumberKeyStroke -> ak
+    java.lang.String DirectionKeyStroke -> al
+    java.lang.String StreetKeyStroke -> am
+    java.lang.String PasswordKeyStroke -> an
+    java.lang.String ColorKeyStroke -> ao
+    java.lang.String MonthKeyStroke -> ap
+    java.lang.String MeterKeyStroke -> aq
+    java.lang.String ChalkKeyStroke -> ar
+    java.lang.String StickerKeyStroke -> as
+    java.lang.String BeatKeyStroke -> at
+    java.lang.String TypeKeyStroke -> au
+    java.lang.String CourtKeyStroke -> av
+    java.lang.String LastFourKeyStroke -> aw
+    java.lang.String PermitKeyStroke -> ax
+    java.lang.String MainKeyStroke -> ay
+    java.lang.String LotKeyStroke -> az
+    java.lang.String SpaceKeyStroke -> aA
+    java.lang.String ProblemKeyStroke -> aB
+    java.lang.String ChalkTimeKeyStroke -> aC
+    java.lang.String CountKeyStroke -> aD
+    java.lang.String SignKeyStroke -> aE
+    java.lang.String TransportationKeyStroke -> aF
+    java.lang.String NextLastKeyStroke -> aG
+    java.lang.String ShowDateTimeKeyStroke -> aH
+    java.lang.String AttestationKeyStroke -> aI
+    java.lang.String BootKeyStroke -> aJ
+    java.lang.String DallasMeterKeyStroke -> aK
+    java.lang.String SlotKeyStroke -> aL
+    java.lang.String PrintCitationVal -> aM
+    java.lang.String PrintPlateVal -> aN
+    java.lang.String SavePlateVal -> aO
+    java.lang.String SaveVinVal -> aP
+    java.lang.String PrintStateVal -> aQ
+    java.lang.String SaveStateVal -> aR
+    java.lang.String PrintYearVal -> aS
+    java.lang.String SaveYearVal -> aT
+    java.lang.String PrintMonthVal -> aU
+    java.lang.String SaveMonthVal -> aV
+    java.lang.String PrintChalkVal -> aW
+    java.lang.String SaveChalkVal -> aX
+    java.lang.String PrintStickerVal -> aY
+    java.lang.String SaveStickerVal -> aZ
+    java.lang.String PrintCourtVal -> ba
+    java.lang.String SaveCourtVal -> bb
+    java.lang.String SaveViolateVal -> bc
+    java.lang.String PrintFine1Val -> bd
+    java.lang.String PrintFine2Val -> be
+    java.lang.String PrintFine3Val -> bf
+    java.lang.String SaveCommentVal -> bg
+    java.lang.String PrintComment1Val -> bh
+    java.lang.String PrintComment2Val -> bi
+    java.lang.String PrintComment3Val -> bj
+    java.lang.String PrintMakeVal -> bk
+    java.lang.String SaveMakeVal -> bl
+    java.lang.String PrintColorVal -> bm
+    java.lang.String SaveColorVal -> bn
+    java.lang.String PrintBodyVal -> bo
+    java.lang.String SaveBodyVal -> bp
+    java.lang.String PrintTypeVal -> bq
+    java.lang.String SaveTypeVal -> br
+    java.lang.String PrintAddressVal -> bs
+    java.lang.String PrintNumberVal -> bt
+    java.lang.String SaveNumberVal -> bu
+    java.lang.String PrintMeterVal -> bv
+    java.lang.String PrintBeatVal -> bw
+    java.lang.String PrintDirectionVal -> bx
+    java.lang.String SaveDirectionVal -> by
+    java.lang.String PrintStreetVal -> bz
+    java.lang.String SaveStreetVal -> bA
+    java.lang.String PrintDateVal -> bB
+    java.lang.String SaveDateVal -> bC
+    java.lang.String PrintTimeVal -> bD
+    java.lang.String SaveTimeVal -> bE
+    java.lang.String PrintOfficerVal -> bF
+    java.lang.String PrintBadgeVal -> bG
+    java.lang.String PrintOrdinanceVal -> bH
+    java.lang.String PrintViolCodeVal -> bI
+    java.lang.String PrintViolDesc1Val -> bJ
+    java.lang.String PrintViolDesc2Val -> bK
+    java.lang.String PlateMonthFlagVal -> bL
+    java.lang.String MeterFlagVal -> bM
+    java.lang.String ChalkFlagVal -> bN
+    java.lang.String CommentFlagVal -> bO
+    java.lang.String StickerFlagVal -> bP
+    java.lang.String OverTimeFlagVal -> bQ
+    java.lang.String FootBallFlagVal -> bR
+    java.lang.String PrintLastFourVal -> bS
+    java.lang.String SaveLastFourVal -> bT
+    java.lang.String PrintPermitVal -> bU
+    java.lang.String SavePermitVal -> bV
+    java.lang.String PrintLotVal -> bW
+    java.lang.String SaveLotVal -> bX
+    java.lang.String PrintSpaceVal -> bY
+    java.lang.String SaveSpaceVal -> bZ
+    java.lang.String PrintProblemVal -> ca
+    java.lang.String SaveProblemVal -> cb
+    java.lang.String PrintTransportationVal -> cc
+    java.lang.String PrintLastCitationVal -> cd
+    java.lang.String PrintBootListPlateVal -> ce
+    java.lang.String PrintBootListReasonVal -> cf
+    java.lang.String PrintBootListStateVal -> cg
+    java.lang.String PrintBootListTypeVal -> ch
+    java.lang.String HittDateVal -> ci
+    java.lang.String HittTimeVal -> cj
+    java.lang.String CheckTimeVal -> ck
+    java.lang.String MenuCodeVal -> cl
+    java.lang.String MenuDescriptionVal -> cm
+    java.lang.String MenuProgramVal -> cn
+    java.lang.String MenuReturnVal -> co
+    java.lang.String MustDoSetupVal -> cp
+    java.lang.String NextCitationVal -> cq
+    java.lang.String PrintDallasMeterVal -> cr
+    java.lang.String SaveDallasMeterVal -> cs
+    java.lang.String DebugOneVal -> ct
+    java.lang.String DebugTwoVal -> cu
+    java.lang.String DebugThreeVal -> cv
+    java.lang.String SaveStreetNVal -> cw
+    java.lang.String SaveStreetSVal -> cx
+    java.lang.String SaveStreetEVal -> cy
+    java.lang.String SaveStreetWVal -> cz
+    java.lang.String SaveStreetNWVal -> cA
+    java.lang.String SaveStreetNEVal -> cB
+    java.lang.String SaveStreetSWVal -> cC
+    java.lang.String SaveStreetSEVal -> cD
+    java.lang.String SaveGeoCodeVal -> cE
+    java.lang.String DefaultYearVal -> cF
+    java.lang.String BeginTimeFlagVal -> cG
+    java.lang.String EndTimeFlagVal -> cH
+    java.lang.String PreviousPrintVal -> cI
+    java.lang.String NextPrintVal -> cJ
+    java.lang.String SecondTicketVal -> cK
+    java.lang.String PrintColorTwoVal -> cL
+    java.lang.String SaveColorTwoVal -> cM
+    java.lang.String DefaultChalkVal -> cN
+    java.lang.String PrintDurangoMeterVal -> cO
+    java.lang.String SaveDurangoMeterVal -> cP
+    java.lang.String ChalkTimeVal -> cQ
+    java.lang.String SaveShiftStartVal -> cR
+    java.lang.String ReturnFormVal -> cS
+    java.lang.String TLogTimeVal -> cT
+    java.lang.String TLogDateVal -> cU
+    java.lang.String PrintDayVal -> cV
+    java.lang.String SaveDayVal -> cW
+    java.lang.String PrintVehicleYearVal -> cX
+    java.lang.String SaveVehicleYearVal -> cY
+    java.lang.String SaveTimeRangVal -> cZ
+    java.lang.String PrintTimeRang1Val -> da
+    java.lang.String PrintTimeRang2Val -> db
+    java.lang.String PrintTimeRang3Val -> dc
+    java.lang.String PrintDaysEffectVal -> dd
+    java.lang.String PrintComputilVal -> de
+    java.lang.String DOWVal -> df
+    java.lang.String PrintExpiredRegVal -> dg
+    java.lang.String PlateCheckDigitVal -> dh
+    java.lang.String PrintNYVinVal -> di
+    java.lang.String SaveNYVinVal -> dj
+    java.lang.String PrintModelVal -> dk
+    java.lang.String PrintCrossStreetVal -> dl
+    java.lang.String SaveCrossStreetVal -> dm
+    java.lang.String PlateTempMessageVal -> dn
+    java.lang.String OnBootListVal -> do
+    java.lang.String XXXComment1Val -> dp
+    java.lang.String XXXComment2Val -> dq
+    java.lang.String XXXComment3Val -> dr
+    java.lang.String PrintPCommentVal -> ds
+    java.lang.String SavePCommentVal -> dt
+    java.lang.String SaveScanRegVal -> du
+    java.lang.String PrivateComment1Val -> dv
+    java.lang.String PrivateComment2Val -> dw
+    java.lang.String PrivateComment3Val -> dx
+    java.lang.String PrintHBoxLotVal -> dy
+    java.lang.String HBoxActiveVal -> dz
+    java.lang.String PrintPrefixVal -> dA
+    java.lang.String SaveHBoxCodeVal -> dB
+    java.lang.String SaveHBoxLotVal -> dC
+    java.lang.String SaveHBoxSpacesVal -> dD
+    java.lang.String SaveHBoxDayAmtVal -> dE
+    java.lang.String SaveHBoxHourAmtVal -> dF
+    java.lang.String SaveHBoxHalfAmtVal -> dG
+    java.lang.String SaveHBoxResrvAmtVal -> dH
+    java.lang.String SaveHBoxEBirdAmtVal -> dI
+    java.lang.String SaveHBoxEBirdTimeVal -> dJ
+    java.lang.String HBoxFlowVal -> dK
+    java.lang.String CurrentPassTimeVal -> dL
+    java.lang.String PrintFeeVal -> dM
+    java.lang.String SaveFeeVal -> dN
+    java.lang.String PrintCourtTimeVal -> dO
+    java.lang.String HBoxReasonVal -> dP
+    java.lang.String SaveStemVal -> dQ
+    java.lang.String PrintMiniTowVal -> dR
+    java.lang.String PrintTypeXrefVal -> dS
+    java.lang.String PrintAmPmTimeVal -> dT
+    java.lang.String PrintNote1Val -> dU
+    java.lang.String PrintNote2Val -> dV
+    java.lang.String PrintCollegeCodeVal -> dW
+    java.lang.String PrintBoundVal -> dX
+    java.lang.String PrintSideVal -> dY
+    java.lang.String PrintDateCanadaVal -> dZ
+    java.lang.String PrintDecalVal -> ea
+    java.lang.String PrintCurrentDueVal -> eb
+    java.lang.String PrintDeptVal -> ec
+    java.lang.String SaveDeptVal -> ed
+    java.lang.String PrintCustomDateVal -> ee
+    java.lang.String SaveCustomDateVal -> ef
+    java.lang.String PrintCustomTimeVal -> eg
+    java.lang.String SaveCustomTimeVal -> eh
+    java.lang.String PrintThirdStreetVal -> ei
+    java.lang.String SaveThirdStreetVal -> ej
+    java.lang.String SaveShowSpaceVal -> ek
+    java.lang.String PrintOvertimeVal -> el
+    java.lang.String EllensBurg010Val -> em
+    java.lang.String NapervilleVBootVal -> en
+    java.lang.String VirtPermBeginTimeVal -> eo
+    java.lang.String VirtPermEndTimeVal -> ep
+    java.lang.String VirtPermDOWVal -> eq
+    java.lang.String PrintFine4Val -> er
+    java.lang.String PrintExtdTypeVal -> es
+    java.lang.String SaveExtdTypeVal -> et
+    java.lang.String PrintLicColorVal -> eu
+    java.lang.String SaveLicColorVal -> ev
+    java.lang.String EditHonorBoxVal -> ew
+    java.lang.String EditRemHonBoxVal -> ex
+    java.lang.String SaveHBoxFiller1Val -> ey
+    java.lang.String SaveHBoxFiller2Val -> ez
+    java.lang.String SaveHBoxFiller3Val -> eA
+    java.lang.String SaveHBoxFiller4Val -> eB
+    java.lang.String SaveHBoxFiller5Val -> eC
+    java.lang.String SaveHBox20MinVal -> eD
+    java.lang.String SaveHBox30MinVal -> eE
+    java.lang.String SaveHBox40MinVal -> eF
+    java.lang.String SaveHBox60MinVal -> eG
+    java.lang.String SaveHBox80MinVal -> eH
+    java.lang.String SaveHBox90MinVal -> eI
+    java.lang.String SaveHBox100MinVal -> eJ
+    java.lang.String SaveHBox2HoursVal -> eK
+    java.lang.String SaveHBox3HoursVal -> eL
+    java.lang.String SaveHBox4HoursVal -> eM
+    java.lang.String SaveHBox5HoursVal -> eN
+    java.lang.String SaveHBox6HoursVal -> eO
+    java.lang.String SaveHBox7HoursVal -> eP
+    java.lang.String SaveHBox8HoursVal -> eQ
+    java.lang.String SaveHBox9HoursVal -> eR
+    java.lang.String SaveHBoxDailyVal -> eS
+    java.lang.String SaveHBoxLotShortVal -> eT
+    java.lang.String StampDateVal -> eU
+    java.lang.String PrintTimeStartVal -> eV
+    java.lang.String SaveTimeStartVal -> eW
+    java.lang.String ClientName -> eX
+    java.lang.String DefaultState -> eY
+    java.lang.String FillerStuff -> eZ
+    java.lang.String TicketMessage -> fa
+    java.lang.String StreetSort -> fb
+    java.lang.String AllowSecondTicket -> fc
+    java.lang.String YearMonthTogether -> fd
+    java.lang.String MakeSort -> fe
+    java.lang.String BodySort -> ff
+    java.lang.String RememberChalk -> fg
+    java.lang.String ExpandXMeter -> fh
+    java.lang.String LineCountFlag -> fi
+    java.lang.String StrictDirectionFlag -> fj
+    java.lang.String ChalkData -> fk
+    java.lang.String SecretPassword -> fl
+    java.lang.String ExpiredRegistration -> fm
+    java.lang.String UseNYType -> fn
+    java.lang.String RetainXComment -> fo
+    java.lang.String SignatureSpacing -> fp
+    java.lang.String UseVBoot -> fq
+    java.lang.String NotOnVBoot -> fr
+    java.lang.String OnVBootLevel1 -> fs
+    java.lang.String OnVBootLevel2 -> ft
+    java.lang.String OnVBootLevel3 -> fu
+    java.lang.String OnVBootLevel4 -> fv
+    java.lang.String NormalVBoot -> fw
+    java.lang.String ActiveBluetooth -> fx
+    java.lang.String LanguageType -> fy
+    java.lang.String SpecialMeterFlag -> fz
+    java.lang.String MonthFlagRequired -> fA
+    java.lang.String MeterLastPrompt -> fB
+    java.lang.String RequireMemoryCard -> fC
+    java.lang.String HonorFileNameVal -> fD
+    java.lang.String HonorMultiDays -> fE
+    java.lang.String DefaultDailyRate -> fF
+    java.lang.String PrintAmPmFlag -> fG
+    java.lang.String HittAndCheckFlag -> fH
+    java.lang.String CustomCitationPrefix -> fI
+    java.lang.String SpecialComment -> fJ
+    java.lang.String AlphabetCitation -> fK
+    java.lang.String VerifyData -> fL
+    java.lang.String CanadaDateFlag -> fM
+    java.lang.String ForceBrightControl -> fN
+    java.lang.String BluetoothPrinter -> fO
+    java.lang.String MultipleBootOccurance -> fP
+    java.lang.String RemHonFileNameVal -> fQ
+    java.lang.String RemHonMultiDays -> fR
+    java.lang.String HBoxEnterRate -> fS
+    java.lang.String OnVBootLevel5 -> fT
+    java.lang.String OnVBootLevel6 -> fU
+    java.lang.String OnVBootLevel7 -> fV
+    java.lang.String OnVBootLevel8 -> fW
+    java.lang.String OnVBootLevel9 -> fX
+    java.lang.String NoFeeFlag -> fY
+    java.lang.String HBoxMeterVal -> fZ
+    java.lang.String UploadPrompt -> ga
+    java.lang.String UploadIPAddress -> gb
+    java.lang.String PrintUnitNumber -> gc
+    java.lang.String ReprintCitationVal -> gd
+    java.lang.String SaveDriversLicVal -> ge
+    java.lang.String SaveFirstNameVal -> gf
+    java.lang.String SaveLastNameVal -> gg
+    java.lang.String SaveAddress1Val -> gh
+    java.lang.String SaveAddress2Val -> gi
+    java.lang.String SaveAddrCityVal -> gj
+    java.lang.String SaveAddrStateVal -> gk
+    java.lang.String SaveAddrZipVal -> gl
+    java.lang.String AlternateIPAddress -> gm
+    java.lang.String SendVitalsIP1 -> gn
+    java.lang.String SendVitalsIP2 -> go
+    java.lang.String ClancyWebSiteIP -> gp
+    java.lang.String UseNewSerial -> gq
+    java.lang.String PrintTicketAtTheEnd -> gr
+    java.lang.String SaveHBox20MinAmtVal -> gs
+    java.lang.String SaveHBox40MinAmtVal -> gt
+    java.lang.String SaveHBox80MinAmtVal -> gu
+    java.lang.String SaveHBox90MinAmtVal -> gv
+    java.lang.String SaveHBox100MinAmtVal -> gw
+    java.lang.String SaveHBox2HoursAmtVal -> gx
+    java.lang.String SaveHBox3HoursAmtVal -> gy
+    java.lang.String SaveHBox4HoursAmtVal -> gz
+    java.lang.String SaveHBox5HoursAmtVal -> gA
+    java.lang.String SaveHBox6HoursAmtVal -> gB
+    java.lang.String SaveHBox7HoursAmtVal -> gC
+    java.lang.String SaveHBox8HoursAmtVal -> gD
+    java.lang.String SaveHBox9HoursAmtVal -> gE
+    java.lang.String SaveHBoxMiscAmtVal -> gF
+    java.lang.String SaveHBoxMisc2AmtVal -> gG
+    java.lang.String SaveHBoxShortCut1Val -> gH
+    java.lang.String SaveHBoxShortCut2Val -> gI
+    java.lang.String SaveHBoxShortCut3Val -> gJ
+    java.lang.String SaveHBoxShortCut4Val -> gK
+    java.lang.String SaveChalkPlateVal -> gL
+    java.lang.String SaveChalkStateVal -> gM
+    java.lang.String SaveChalkStemVal -> gN
+    java.lang.String SaveChalkStreetVal -> gO
+    java.lang.String SaveChalkDirectionVal -> gP
+    java.lang.String SaveChalkMeterVal -> gQ
+    java.lang.String SaveChalkNumberVal -> gR
+    java.lang.String PrintLongViolationVal -> gS
+    java.lang.String UploadCitationsNowVal -> gT
+    java.lang.String PictureCitationDotsVal -> gU
+    java.lang.String WirelessHonorboxVal -> gV
+    java.lang.String RemoteUsernameVal -> gW
+    java.lang.String RemotePasswordVal -> gX
+    java.lang.String PhoneNumberVal -> gY
+    java.lang.String VersionNumberVal -> gZ
+    java.lang.String CourtFormMessage -> ha
+    java.lang.String CourtDueDays -> hb
+    java.lang.String TakeHBoxPhoto -> hc
+    java.lang.String SerialDelay1 -> hd
+    java.lang.String SerialDelay2 -> he
+    java.lang.String SerialDelay3 -> hf
+    java.lang.String HideKeyboardVal -> hg
+    java.lang.String CommentLastPrompt -> hh
+    java.lang.String PhoneModelVal -> hi
+    java.lang.String PreviousDirectCodeVal -> hj
+    java.lang.String PreviousTypeCodeVal -> hk
+    java.lang.String MonthlyPermitClientVal -> hl
+    java.lang.String PinPointVal -> hm
+    java.lang.String PreviousExtdTypeCodeVal -> hn
+    java.lang.String PreviousLicColorCodeVal -> ho
+    java.lang.String AutoMakeVal -> hp
+    java.lang.String AutoBodyVal -> hq
+    java.lang.String AutoColorVal -> hr
+    java.lang.String OnlyParkingIOUVal -> hs
+    java.lang.String IOUViolationCodeVal -> ht
+    java.lang.String IOUReadStringVal -> hu
+    java.lang.String PairedPrinterNameVal -> hv
+    java.lang.String IOUReprintCopiesVal -> hw
+    java.lang.String IOUSwipeDLPromptVal -> hx
+    java.lang.String UploadAnswerVal -> hy
+    java.lang.String SignalStrengthVal -> hz
+    java.lang.String RefreshFileVal -> hA
+    java.lang.String PictureTakenVal -> hB
+    java.lang.String TicketVoidFlag -> hC
+    java.lang.String SaveVMultiErrorVal -> hD
+    java.lang.String MustDoSetupTodayVal -> hE
+    java.lang.String CurrentYearVal -> hF
+    java.lang.String EntireDataString -> hG
+    java.lang.String OfficerOverrideVBootVal -> hH
+    java.lang.String OverridePerformedVal -> hI
+    java.lang.String ClearExitBoxVal -> hJ
+    java.lang.String PrintPic1Val -> hK
+    java.lang.String PrintPic2Val -> hL
+    java.lang.String PrintPic3Val -> hM
+    java.lang.String AndroidBuildsVal -> hN
+    java.lang.String AutoStateVal -> hO
+    java.lang.String AutoPermitVal -> hP
+    java.lang.String AutoPermitTypeVal -> hQ
+    java.lang.String LatitudeVal -> hR
+    java.lang.String LongitudeVal -> hS
+    java.lang.String CameraNextPressVal -> hT
+    java.lang.String PrintLGStreet1Val -> hU
+    java.lang.String PrintLGStreet2Val -> hV
+    java.lang.String PrintLGStreet3Val -> hW
+    java.lang.String LocationSpinnerVal -> hX
+    java.lang.String NewServerFlagVal -> hY
+    java.lang.String MobilePutDelVal -> hZ
+    java.lang.String PrintFine1LargeVal -> ia
+    java.lang.String PrintFine2LargeVal -> ib
+    java.lang.String PrintFine3LargeVal -> ic
+    java.lang.String ForceUploadVal -> id
+    java.lang.String GPSSurveyVal -> ie
+    java.lang.String IsGPSOnOrOFFVal -> if
+    java.lang.String LastLatitudeVal -> ig
+    java.lang.String LastLongitudeVal -> ih
+    java.lang.String LastFileUploadedVal -> ii
+    java.lang.String UseOfflinePasswordVal -> ij
+    java.lang.String UseOfflineVal -> ik
+    java.lang.String PrintChalkStreetVal -> il
+    java.lang.String PrintChalkDirectionVal -> im
+    java.lang.String StreetNumberMessage -> in
+    java.lang.String MeterNumberMessage -> io
+    java.lang.String BeatMessage -> ip
+    java.lang.String AddFeeMessage -> iq
+    java.lang.String VariableI -> ir
+    java.lang.String RecordPointer -> is
+    java.lang.String RotateValue -> it
+    java.lang.String PrefixVal -> iu
+    java.lang.String LotCheckMessage -> iv
+    java.lang.String SaveStreetTypeVal -> iw
+    java.lang.String PrintStreetTypeVal -> ix
+    java.lang.String PreviousStreetTypeCodeVal -> iy
+    java.lang.String SaveTempPlateVal -> iz
+    java.lang.String PrintTempExpireVal -> iA
+    java.lang.String PrintAdditionalComment1Val -> iB
+    java.lang.String PrintAdditionalComment2Val -> iC
+    java.lang.String PrintAdditionalComment3Val -> iD
+    java.lang.String CredentialsValue -> iE
+    java.lang.String AticketAPKDownloadValue -> iF
+    java.lang.String AticketNameValue -> iG
+    java.lang.String PreviousCourtMonthVal -> iH
+    java.lang.String PreviousCourtDayVal -> iI
+    java.lang.String PreviousCourtYearVal -> iJ
+    java.lang.String CacheCourtDateVal -> iK
+    java.lang.String PermitMessageVal -> iL
+com.clancy.aticket.DeptForm -> com.clancy.aticket.DeptForm:
+    void EnterClick() -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.DeptForm) -> a
+    void access$1(com.clancy.aticket.DeptForm,java.lang.String) -> a
+    void access$2(com.clancy.aticket.DeptForm) -> b
+    void access$3(com.clancy.aticket.DeptForm) -> c
+com.clancy.aticket.DeptForm$1 -> bq:
+    com.clancy.aticket.DeptForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DeptForm$2 -> br:
+    com.clancy.aticket.DeptForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DeptForm$3 -> bs:
+    com.clancy.aticket.DeptForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.DeptForm$4 -> bt:
+    com.clancy.aticket.DeptForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.DeptForm$5 -> bu:
+    com.clancy.aticket.DeptForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DeptForm$6 -> bv:
+    com.clancy.aticket.DeptForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DetailsForm -> com.clancy.aticket.DetailsForm:
+    java.lang.Runnable mWaitRunnable -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.DetailsForm) -> a
+com.clancy.aticket.DetailsForm$1 -> bw:
+    com.clancy.aticket.DetailsForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.DetailsForm$2 -> bx:
+    com.clancy.aticket.DetailsForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DetailsForm$3 -> by:
+    com.clancy.aticket.DetailsForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DirectionForm -> com.clancy.aticket.DirectionForm:
+    void EnterClick() -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.Boolean VerifyDirectionCode(java.lang.String) -> b
+    void access$0(com.clancy.aticket.DirectionForm) -> a
+    void access$1(com.clancy.aticket.DirectionForm,java.lang.String) -> a
+    void access$2(com.clancy.aticket.DirectionForm) -> b
+    void access$3(com.clancy.aticket.DirectionForm) -> c
+com.clancy.aticket.DirectionForm$1 -> bz:
+    com.clancy.aticket.DirectionForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DirectionForm$2 -> bA:
+    com.clancy.aticket.DirectionForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DirectionForm$3 -> bB:
+    com.clancy.aticket.DirectionForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.DirectionForm$4 -> bC:
+    com.clancy.aticket.DirectionForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.DirectionForm$5 -> bD:
+    com.clancy.aticket.DirectionForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DirectionForm$6 -> bE:
+    com.clancy.aticket.DirectionForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DisplaySpaceForm -> com.clancy.aticket.DisplaySpaceForm:
+    void onCreate(android.os.Bundle) -> onCreate
+    void ShowTheSpace(java.lang.String,java.lang.String,java.lang.String) -> a
+com.clancy.aticket.DisplaySpaceForm$1 -> bF:
+    com.clancy.aticket.DisplaySpaceForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.DisplaySpaceForm$2 -> bG:
+    com.clancy.aticket.DisplaySpaceForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.EmailForm -> com.clancy.aticket.EmailForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.EmailForm$1 -> bH:
+    com.clancy.aticket.EmailForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.GPSForm -> com.clancy.aticket.GPSForm:
+    android.os.Handler mHandler -> a
+    java.lang.Runnable mWaitRunnable -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$0(com.clancy.aticket.GPSForm) -> a
+com.clancy.aticket.GPSForm$1 -> bI:
+    com.clancy.aticket.GPSForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.GPSForm$2 -> bJ:
+    com.clancy.aticket.GPSForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.GPSForm$3 -> bK:
+    com.clancy.aticket.GPSForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.GPSForm$4 -> bL:
+    com.clancy.aticket.GPSForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.GPSForm$5 -> bM:
+    com.clancy.aticket.GPSForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.GPSStats -> bN:
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+com.clancy.aticket.GarbleyGoop -> bO:
+    java.lang.String DansRoutine(java.lang.String) -> a
+com.clancy.aticket.GetBootForm -> com.clancy.aticket.GetBootForm:
+    android.os.Handler mHandler -> a
+    android.widget.TextView TextUpdate -> b
+    int i -> c
+    java.lang.String[] dbHoldValues -> d
+    com.clancy.aticket.HTTPFileTransfer writetest -> e
+    java.lang.Runnable mHTTPConnectRunnable -> f
+    java.lang.Runnable mWaitRunnable -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$0(com.clancy.aticket.GetBootForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.GetBootForm) -> b
+    void access$2(com.clancy.aticket.GetBootForm,com.clancy.aticket.HTTPFileTransfer) -> a
+    java.lang.String[] access$3(com.clancy.aticket.GetBootForm) -> c
+    int access$4(com.clancy.aticket.GetBootForm) -> d
+    com.clancy.aticket.HTTPFileTransfer access$5(com.clancy.aticket.GetBootForm) -> e
+    android.widget.TextView access$6(com.clancy.aticket.GetBootForm) -> f
+    void access$7(com.clancy.aticket.GetBootForm,int) -> a
+com.clancy.aticket.GetBootForm$1 -> bP:
+    com.clancy.aticket.GetBootForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.GetBootForm$2 -> bQ:
+    com.clancy.aticket.GetBootForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.GetDate -> bR:
+    void GetDateTime(android.content.Context) -> a
+com.clancy.aticket.GlobalStorage -> bS:
+    java.lang.String str -> a
+    java.lang.Class clsClassName -> b
+com.clancy.aticket.GoogleMapsForm -> com.clancy.aticket.GoogleMapsForm:
+    void onCreate(android.os.Bundle) -> onCreate
+    void setupWebView2() -> a
+com.clancy.aticket.GoogleMapsForm$1 -> bT:
+    com.clancy.aticket.GoogleMapsForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.GoogleMapsForm$2 -> bU:
+    com.clancy.aticket.GoogleMapsForm this$0 -> a
+    android.webkit.WebView val$webView -> b
+    java.lang.String val$centerURL -> c
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.clancy.aticket.HBoxCameraForm -> com.clancy.aticket.HBoxCameraForm:
+    android.hardware.Camera mCamera -> d
+    android.os.Handler mHandler -> e
+    java.lang.String PictureName -> a
+    boolean Processing -> b
+    android.hardware.Camera$AutoFocusCallback autoFocusCallback -> c
+    android.hardware.Camera$PictureCallback mPicture -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy
+    void initCamera() -> c
+    void releaseCamera() -> d
+    android.hardware.Camera getCameraInstance() -> a
+    java.io.File getOutputMediaFile() -> e
+    android.hardware.Camera access$0(com.clancy.aticket.HBoxCameraForm) -> a
+    android.hardware.Camera$PictureCallback access$1(com.clancy.aticket.HBoxCameraForm) -> b
+    java.io.File access$2() -> b
+    void access$3(com.clancy.aticket.HBoxCameraForm) -> c
+com.clancy.aticket.HBoxCameraForm$1 -> bV:
+    com.clancy.aticket.HBoxCameraForm this$0 -> a
+    void onAutoFocus(boolean,android.hardware.Camera) -> onAutoFocus
+com.clancy.aticket.HBoxCameraForm$2 -> bW:
+    com.clancy.aticket.HBoxCameraForm this$0 -> a
+    void onPictureTaken(byte[],android.hardware.Camera) -> onPictureTaken
+com.clancy.aticket.HBoxCameraForm$3 -> bX:
+    com.clancy.aticket.HBoxCameraForm this$0 -> a
+    android.widget.ImageView val$pic1View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxCameraForm$4 -> bY:
+    com.clancy.aticket.HBoxCameraForm this$0 -> a
+    android.widget.ImageView val$pic2View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxCameraForm$5 -> bZ:
+    com.clancy.aticket.HBoxCameraForm this$0 -> a
+    android.widget.ImageView val$pic3View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxCameraForm$6 -> ca:
+    com.clancy.aticket.HBoxCameraForm this$0 -> a
+    android.widget.ImageView val$pic4View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxDownloadForm -> com.clancy.aticket.HBoxDownloadForm:
+    android.os.Handler mHandler -> b
+    com.clancy.aticket.HTTPFileTransfer writetest -> c
+    int NumberOfPasses -> a
+    java.lang.Runnable mHTTPConnectRunnable -> d
+    java.lang.Runnable mWaitRunnable -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$0(com.clancy.aticket.HBoxDownloadForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.HBoxDownloadForm) -> b
+    com.clancy.aticket.HTTPFileTransfer access$2(com.clancy.aticket.HBoxDownloadForm) -> c
+    java.lang.Runnable access$3(com.clancy.aticket.HBoxDownloadForm) -> d
+com.clancy.aticket.HBoxDownloadForm$1 -> cb:
+    com.clancy.aticket.HBoxDownloadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.HBoxDownloadForm$2 -> cc:
+    com.clancy.aticket.HBoxDownloadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.HBoxDownloadForm$3 -> cd:
+    com.clancy.aticket.HBoxDownloadForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxDownloadForm$4 -> ce:
+    com.clancy.aticket.HBoxDownloadForm this$0 -> a
+    android.widget.TextView val$tvLot -> b
+    android.widget.Button val$retry -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxSelectLotForm -> com.clancy.aticket.HBoxSelectLotForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.HBoxSelectLotForm) -> a
+    void access$1(com.clancy.aticket.HBoxSelectLotForm) -> b
+    void access$2(com.clancy.aticket.HBoxSelectLotForm) -> c
+    void access$3(com.clancy.aticket.HBoxSelectLotForm,java.lang.String) -> a
+com.clancy.aticket.HBoxSelectLotForm$1 -> cf:
+    com.clancy.aticket.HBoxSelectLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxSelectLotForm$2 -> cg:
+    com.clancy.aticket.HBoxSelectLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxSelectLotForm$3 -> ch:
+    com.clancy.aticket.HBoxSelectLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxSelectLotForm$4 -> ci:
+    com.clancy.aticket.HBoxSelectLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxSelectLotForm$5 -> cj:
+    com.clancy.aticket.HBoxSelectLotForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.HBoxSelectLotForm$6 -> ck:
+    com.clancy.aticket.HBoxSelectLotForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.HBoxUploadForm -> com.clancy.aticket.HBoxUploadForm:
+    android.os.Handler mHandler -> c
+    int NumberOfPasses -> a
+    android.os.Handler handler -> b
+    java.lang.Runnable mHTTPConnectRunnable -> d
+    java.lang.Runnable mWaitRunnable -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String ReturnFileContents(java.lang.String) -> a
+    byte[] ReturnByteArray(java.lang.String) -> b
+    android.os.Handler access$0(com.clancy.aticket.HBoxUploadForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.HBoxUploadForm) -> b
+    java.lang.Runnable access$2(com.clancy.aticket.HBoxUploadForm) -> c
+com.clancy.aticket.HBoxUploadForm$1 -> cl:
+    com.clancy.aticket.HBoxUploadForm this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.clancy.aticket.HBoxUploadForm$2 -> cm:
+    com.clancy.aticket.HBoxUploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.HBoxUploadForm$3 -> cn:
+    com.clancy.aticket.HBoxUploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.HBoxUploadForm$4 -> co:
+    com.clancy.aticket.HBoxUploadForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HBoxUploadForm$5 -> cp:
+    com.clancy.aticket.HBoxUploadForm this$0 -> a
+    android.widget.TextView val$tvLot -> b
+    android.widget.Button val$retry -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HTTPFileTransfer -> cq:
+    java.lang.String PATH -> a
+    void DownloadFileBinary(java.lang.String,java.lang.String,android.content.Context) -> a
+    java.lang.String DownloadHBoxFile(java.lang.String,java.lang.String,android.content.Context) -> b
+    void GetNewClancyJ(java.lang.String,android.content.Context) -> a
+    void DeleteClancyJ(java.lang.String,android.content.Context) -> b
+    java.lang.Boolean UploadJPGBinary(java.lang.String,java.lang.String,android.content.Context) -> c
+    java.lang.Boolean UploadFileBinary(java.lang.String,java.lang.String,android.content.Context) -> d
+    long HTTPGetFileSize(java.lang.String,android.content.Context) -> c
+    void RefreshFile(java.lang.String,android.content.Context) -> d
+    java.lang.String HTTPGetPageContent(java.lang.String,android.content.Context) -> e
+    java.lang.String convertStreamToString(java.io.InputStream) -> a
+com.clancy.aticket.HTTPFileTransfer$1 -> cr:
+    java.lang.String nPassword -> a
+    java.net.PasswordAuthentication getPasswordAuthentication() -> getPasswordAuthentication
+com.clancy.aticket.HTTPFileTransfer$2 -> cs:
+    java.lang.String val$username -> a
+    java.lang.String val$password -> b
+    java.net.PasswordAuthentication getPasswordAuthentication() -> getPasswordAuthentication
+com.clancy.aticket.HTTPFileTransfer$3 -> ct:
+    java.lang.String nPassword -> a
+    java.net.PasswordAuthentication getPasswordAuthentication() -> getPasswordAuthentication
+com.clancy.aticket.HTTPFileTransfer$4 -> cu:
+    java.lang.String val$username -> a
+    java.lang.String val$password -> b
+    java.net.PasswordAuthentication getPasswordAuthentication() -> getPasswordAuthentication
+com.clancy.aticket.HonorCashForm -> com.clancy.aticket.HonorCashForm:
+    int CurrentSpace -> a
+    int MaxSpaces -> b
+    int StartSpaceNumber -> c
+    int CurrentPass -> d
+    java.lang.Boolean CashChosen -> e
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void PopIt(java.lang.String,java.lang.String) -> a
+    java.lang.Boolean StampStartTime(android.content.Context) -> a
+    void SaveSpaceInfo(java.lang.String,android.content.Context) -> a
+    java.lang.Boolean GetLotNumber(android.content.Context) -> b
+    void access$0(com.clancy.aticket.HonorCashForm) -> a
+com.clancy.aticket.HonorCashForm$1 -> cv:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$10 -> cw:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.Button val$bGo -> b
+    android.widget.EditText val$Cash -> c
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.clancy.aticket.HonorCashForm$11 -> cx:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Number -> b
+    android.widget.EditText val$Cash -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$12 -> cy:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.clancy.aticket.HonorCashForm$13 -> cz:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.clancy.aticket.HonorCashForm$2 -> cA:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$3 -> cB:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$4 -> cC:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Cash -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$5 -> cD:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Cash -> b
+    android.widget.Button val$One -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$6 -> cE:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Cash -> b
+    android.widget.Button val$Two -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$7 -> cF:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Cash -> b
+    android.widget.Button val$Three -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$8 -> cG:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Cash -> b
+    android.widget.Button val$Four -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorCashForm$9 -> cH:
+    com.clancy.aticket.HonorCashForm this$0 -> a
+    android.widget.EditText val$Cash -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm -> com.clancy.aticket.HonorLotForm:
+    int CurrentSpace -> a
+    int MaxSpaces -> b
+    int StartSpaceNumber -> c
+    int CurrentPass -> d
+    java.lang.Boolean ShowOptions -> e
+    java.lang.Boolean LetterCounter -> f
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void PopIt(java.lang.String,java.lang.String) -> a
+    void ButtonStore(android.content.Context) -> a
+    void SaveSpaceInformation(java.lang.String,android.content.Context) -> a
+    java.lang.String CheckDollarAmount(int,java.lang.String,android.content.Context) -> a
+    double GetTimeElapsed(java.lang.String) -> a
+    java.lang.Boolean StampEndTime(android.content.Context) -> b
+    java.lang.Boolean GetLotPlateNumber(android.content.Context) -> c
+    void StoreNoTicketReason(java.lang.String,android.content.Context) -> b
+    void access$0(com.clancy.aticket.HonorLotForm) -> a
+com.clancy.aticket.HonorLotForm$1 -> cI:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    android.widget.Button val$Three -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm$10 -> cJ:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.clancy.aticket.HonorLotForm$11 -> cK:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.clancy.aticket.HonorLotForm$2 -> cL:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    android.widget.EditText val$Plate -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm$3 -> cM:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm$4 -> cN:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm$5 -> cO:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    android.widget.Button val$bGo -> b
+    android.widget.EditText val$Plate -> c
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.clancy.aticket.HonorLotForm$6 -> cP:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    android.widget.EditText val$Plate -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.HonorLotForm$7 -> cQ:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    android.widget.EditText val$Number -> b
+    android.widget.EditText val$Plate -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm$8 -> cR:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.HonorLotForm$9 -> cS:
+    com.clancy.aticket.HonorLotForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.HttpConnection -> cT:
+    int DID_START -> a
+    int DID_ERROR -> b
+    int DID_SUCCEED -> c
+    int GET -> d
+    int POST -> e
+    int PUT -> f
+    int DELETE -> g
+    int PUTBITMAP -> h
+    int BITMAP -> i
+    java.lang.String url -> j
+    int method -> k
+    android.os.Handler handler -> l
+    java.lang.String data -> m
+    java.lang.String fileName -> n
+    byte[] byteBuffer -> o
+    org.apache.http.client.HttpClient httpClient -> p
+    void create(int,java.lang.String,java.lang.String,byte[],java.lang.String) -> a
+    void get(java.lang.String) -> a
+    void post(java.lang.String,java.lang.String) -> a
+    void put(java.lang.String,java.lang.String,java.lang.String) -> a
+    void putBitmap(java.lang.String,java.lang.String,byte[],java.lang.String) -> a
+    void delete(java.lang.String) -> b
+    void bitmap(java.lang.String) -> c
+    void run() -> run
+    void processEntity(org.apache.http.HttpEntity,java.lang.String) -> a
+    void processBitmapEntity(org.apache.http.HttpEntity) -> a
+com.clancy.aticket.IOHonorFile -> cU:
+    int HowManyPasses(java.lang.String,android.content.Context) -> a
+    int ExpandHonorList(java.lang.String,android.content.Context) -> b
+    java.lang.Boolean SaveToFile(java.lang.String,java.lang.String,android.content.Context) -> a
+    java.lang.Boolean WriteVirtualFile(java.lang.String,java.lang.String,int,android.content.Context) -> a
+com.clancy.aticket.IPAddressForm -> com.clancy.aticket.IPAddressForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.IPAddressForm) -> a
+com.clancy.aticket.IPAddressForm$1 -> cV:
+    com.clancy.aticket.IPAddressForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.IPAddressForm$2 -> cW:
+    com.clancy.aticket.IPAddressForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.IPAddressForm$3 -> cX:
+    com.clancy.aticket.IPAddressForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.InsecureBluetooth -> cY:
+    android.bluetooth.BluetoothServerSocket listenUsingRfcommWithServiceRecord(android.bluetooth.BluetoothAdapter,java.lang.String,java.util.UUID,boolean) -> a
+    android.bluetooth.BluetoothServerSocket listenUsingRfcomm(int,boolean,boolean) -> a
+    android.bluetooth.BluetoothServerSocket listenUsingRfcomm(int,boolean) -> a
+    android.bluetooth.BluetoothSocket createRfcommSocketToServiceRecord(android.bluetooth.BluetoothDevice,int,java.util.UUID,boolean) -> a
+    android.bluetooth.BluetoothSocket createRfcommSocketToServiceRecord(android.bluetooth.BluetoothDevice,java.util.UUID,boolean) -> a
+    android.bluetooth.BluetoothSocket createRfcommSocket(android.bluetooth.BluetoothDevice,int,boolean) -> a
+com.clancy.aticket.InsecureBluetooth$InUse -> cZ:
+com.clancy.aticket.LAMTAPermitForm -> com.clancy.aticket.LAMTAPermitForm:
+    android.speech.tts.TextToSpeech mTts -> a
+    int REQUEST_CODE -> b
+    java.lang.Runnable mRunnable -> c
+    void EnterClick() -> a
+    void onDestroy() -> onDestroy
+    void onCreate(android.os.Bundle) -> onCreate
+    void startVoiceRecognitionActivity() -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onInit(int) -> onInit
+    void access$0(com.clancy.aticket.LAMTAPermitForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.LAMTAPermitForm) -> b
+    void access$2(com.clancy.aticket.LAMTAPermitForm) -> c
+com.clancy.aticket.LAMTAPermitForm$1 -> da:
+    com.clancy.aticket.LAMTAPermitForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.LAMTAPermitForm$2 -> db:
+    com.clancy.aticket.LAMTAPermitForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LAMTAPermitForm$3 -> dc:
+    com.clancy.aticket.LAMTAPermitForm this$0 -> a
+    android.widget.Button val$enter -> b
+    android.widget.TextView val$tvMessage -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LAMTAPermitForm$4 -> dd:
+    com.clancy.aticket.LAMTAPermitForm this$0 -> a
+    android.widget.Button val$enter -> b
+    android.widget.TextView val$tvMessage -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LAMTAPermitForm$5 -> de:
+    com.clancy.aticket.LAMTAPermitForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.LGStreetForm -> com.clancy.aticket.LGStreetForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.LGStreetForm) -> a
+    void access$1(com.clancy.aticket.LGStreetForm) -> b
+    void access$2(com.clancy.aticket.LGStreetForm) -> c
+    void access$3(com.clancy.aticket.LGStreetForm,java.lang.String) -> a
+com.clancy.aticket.LGStreetForm$1 -> df:
+    com.clancy.aticket.LGStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LGStreetForm$2 -> dg:
+    com.clancy.aticket.LGStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LGStreetForm$3 -> dh:
+    com.clancy.aticket.LGStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LGStreetForm$4 -> di:
+    com.clancy.aticket.LGStreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LGStreetForm$5 -> dj:
+    com.clancy.aticket.LGStreetForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.LGStreetSpinForm -> com.clancy.aticket.LGStreetSpinForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void PopIt(java.lang.String,java.lang.String) -> a
+    void access$0(com.clancy.aticket.LGStreetSpinForm) -> a
+com.clancy.aticket.LGStreetSpinForm$1 -> dk:
+    com.clancy.aticket.LGStreetSpinForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LGStreetSpinForm$2 -> dl:
+    com.clancy.aticket.LGStreetSpinForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LGStreetSpinForm$3 -> dm:
+    com.clancy.aticket.LGStreetSpinForm this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.clancy.aticket.LGStreetSpinForm$4 -> dn:
+    com.clancy.aticket.LGStreetSpinForm this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.clancy.aticket.LanguageForm -> com.clancy.aticket.LanguageForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.LanguageForm) -> a
+com.clancy.aticket.LanguageForm$1 -> do:
+    com.clancy.aticket.LanguageForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LanguageForm$2 -> dp:
+    com.clancy.aticket.LanguageForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LanguageForm$3 -> dq:
+    com.clancy.aticket.LanguageForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.LastFourForm -> com.clancy.aticket.LastFourForm:
+    void EnterClick() -> a
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.LastFourForm) -> a
+    void access$1(com.clancy.aticket.LastFourForm,java.lang.String) -> a
+com.clancy.aticket.LastFourForm$1 -> dr:
+    com.clancy.aticket.LastFourForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LastFourForm$2 -> ds:
+    com.clancy.aticket.LastFourForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LastFourForm$3 -> dt:
+    com.clancy.aticket.LastFourForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.LastFourForm$4 -> du:
+    com.clancy.aticket.LastFourForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.LicColorForm -> com.clancy.aticket.LicColorForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.LicColorForm) -> a
+    void access$1(com.clancy.aticket.LicColorForm) -> b
+    void access$2(com.clancy.aticket.LicColorForm) -> c
+    void access$3(com.clancy.aticket.LicColorForm,java.lang.String) -> a
+com.clancy.aticket.LicColorForm$1 -> dv:
+    com.clancy.aticket.LicColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LicColorForm$2 -> dw:
+    com.clancy.aticket.LicColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LicColorForm$3 -> dx:
+    com.clancy.aticket.LicColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LicColorForm$4 -> dy:
+    com.clancy.aticket.LicColorForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.LicColorForm$5 -> dz:
+    com.clancy.aticket.LicColorForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.LicColorForm$6 -> dA:
+    com.clancy.aticket.LicColorForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.MakeForm -> com.clancy.aticket.MakeForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.MakeForm) -> a
+    void access$1(com.clancy.aticket.MakeForm) -> b
+    void access$2(com.clancy.aticket.MakeForm) -> c
+    void access$3(com.clancy.aticket.MakeForm,java.lang.String) -> a
+com.clancy.aticket.MakeForm$1 -> dB:
+    com.clancy.aticket.MakeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MakeForm$2 -> dC:
+    com.clancy.aticket.MakeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MakeForm$3 -> dD:
+    com.clancy.aticket.MakeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MakeForm$4 -> dE:
+    com.clancy.aticket.MakeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MakeForm$5 -> dF:
+    com.clancy.aticket.MakeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.MakeForm$6 -> dG:
+    com.clancy.aticket.MakeForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.Messagebox -> dH:
+    void Message(java.lang.String,android.content.Context) -> a
+com.clancy.aticket.MeterForm -> com.clancy.aticket.MeterForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void EvansvilleDisplayChalkSpace(java.lang.String,java.lang.String,java.lang.String) -> a
+    void access$0(com.clancy.aticket.MeterForm) -> a
+com.clancy.aticket.MeterForm$1 -> dI:
+    com.clancy.aticket.MeterForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MeterForm$2 -> dJ:
+    com.clancy.aticket.MeterForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MeterForm$3 -> dK:
+    com.clancy.aticket.MeterForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.MiscFunctions -> dL:
+    boolean validInteger(java.lang.String) -> a
+    void VoidTheTicket(android.content.Context) -> a
+    void AddFeeFine1(android.content.Context) -> b
+    void AddFeeFine2(android.content.Context) -> c
+    void AddFeeFine3(android.content.Context) -> d
+    void EraseVoidedPictures(android.content.Context) -> e
+com.clancy.aticket.MiscUnUsed -> com.clancy.aticket.MiscUnUsed:
+    java.lang.String TAG -> a
+    void MakeDirectory() -> a
+    void MakeFile(android.content.Context) -> a
+com.clancy.aticket.MonthForm -> com.clancy.aticket.MonthForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.MonthForm) -> a
+com.clancy.aticket.MonthForm$1 -> dM:
+    com.clancy.aticket.MonthForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MonthForm$2 -> dN:
+    com.clancy.aticket.MonthForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MonthForm$3 -> dO:
+    com.clancy.aticket.MonthForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.MultipleChalksForm -> com.clancy.aticket.MultipleChalksForm:
+    android.widget.EditText eChalks -> a
+    void SaveTheChalkTime() -> a
+    void GetChalkTimes(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.MultipleChalksForm$1 -> dP:
+    com.clancy.aticket.MultipleChalksForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.MustDoSetup -> dQ:
+    void WriteMustDoSetupDate(android.content.Context) -> a
+    java.lang.Boolean MustDoSetupCheck(android.content.Context) -> b
+com.clancy.aticket.NYVinForm -> com.clancy.aticket.NYVinForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.NYVinForm) -> a
+com.clancy.aticket.NYVinForm$1 -> dR:
+    com.clancy.aticket.NYVinForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NYVinForm$2 -> dS:
+    com.clancy.aticket.NYVinForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NYVinForm$3 -> dT:
+    com.clancy.aticket.NYVinForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.NewPermitForm -> com.clancy.aticket.NewPermitForm:
+    java.lang.Runnable mWaitRunnable -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.NewPermitForm) -> a
+com.clancy.aticket.NewPermitForm$1 -> dU:
+    com.clancy.aticket.NewPermitForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.NewPermitForm$2 -> dV:
+    com.clancy.aticket.NewPermitForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NewPermitForm$3 -> dW:
+    com.clancy.aticket.NewPermitForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NewPlateTypeForm -> com.clancy.aticket.NewPlateTypeForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.NewPlateTypeForm) -> a
+    void access$1(com.clancy.aticket.NewPlateTypeForm) -> b
+    void access$2(com.clancy.aticket.NewPlateTypeForm) -> c
+    void access$3(com.clancy.aticket.NewPlateTypeForm,java.lang.String) -> a
+com.clancy.aticket.NewPlateTypeForm$1 -> dX:
+    com.clancy.aticket.NewPlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NewPlateTypeForm$2 -> dY:
+    com.clancy.aticket.NewPlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NewPlateTypeForm$3 -> dZ:
+    com.clancy.aticket.NewPlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NewPlateTypeForm$4 -> ea:
+    com.clancy.aticket.NewPlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NewPlateTypeForm$5 -> eb:
+    com.clancy.aticket.NewPlateTypeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.NewPlateTypeForm$6 -> ec:
+    com.clancy.aticket.NewPlateTypeForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.NextCiteNum -> ed:
+    java.lang.Boolean GetNextCitationNumber(int,android.content.Context) -> a
+    java.lang.String ValidateCheckDigit(java.lang.String,java.lang.String,int,android.content.Context) -> a
+com.clancy.aticket.NextLastForm -> com.clancy.aticket.NextLastForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.NextLastForm$1 -> ee:
+    com.clancy.aticket.NextLastForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NextLastForm$2 -> ef:
+    com.clancy.aticket.NextLastForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NumberForm -> com.clancy.aticket.NumberForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.NumberForm) -> a
+com.clancy.aticket.NumberForm$1 -> eg:
+    com.clancy.aticket.NumberForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NumberForm$2 -> eh:
+    com.clancy.aticket.NumberForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.NumberForm$3 -> ei:
+    com.clancy.aticket.NumberForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.OCR -> ej:
+    byte[] VerticalOCRBZero -> a
+    byte[] VerticalOCRBOne -> b
+    byte[] VerticalOCRBTwo -> c
+    byte[] VerticalOCRBThree -> d
+    byte[] VerticalOCRBFour -> e
+    byte[] VerticalOCRBFive -> f
+    byte[] VerticalOCRBSix -> g
+    byte[] VerticalOCRBSeven -> h
+    byte[] VerticalOCRBEight -> i
+    byte[] VerticalOCRBNine -> j
+    byte[] VerticalOCRBX -> k
+    byte[] VerticalOCRAZero -> l
+    byte[] VerticalOCRAOne -> m
+    byte[] VerticalOCRATwo -> n
+    byte[] VerticalOCRAThree -> o
+    byte[] VerticalOCRAFour -> p
+    byte[] VerticalOCRAFive -> q
+    byte[] VerticalOCRASix -> r
+    byte[] VerticalOCRASeven -> s
+    byte[] VerticalOCRAEight -> t
+    byte[] VerticalOCRANine -> u
+    byte[] VerticalOCRAX -> v
+    void PrintTheBarCode(java.lang.String,java.io.OutputStream,android.content.Context) -> a
+    void PrintOCRBCharacter(java.lang.String,java.io.OutputStream) -> a
+    void PrintOCRACharacter(java.lang.String,java.io.OutputStream) -> b
+    void PrintFeedBack(java.io.OutputStream,android.content.Context) -> a
+com.clancy.aticket.OfficerForm -> com.clancy.aticket.OfficerForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.OfficerForm) -> a
+com.clancy.aticket.OfficerForm$1 -> ek:
+    com.clancy.aticket.OfficerForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.OfficerForm$2 -> el:
+    com.clancy.aticket.OfficerForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.OfficerForm$3 -> em:
+    com.clancy.aticket.OfficerForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.OfflinePasswordForm -> com.clancy.aticket.OfflinePasswordForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.OfflinePasswordForm$1 -> en:
+    com.clancy.aticket.OfflinePasswordForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.OfflinePasswordForm$2 -> eo:
+    com.clancy.aticket.OfflinePasswordForm this$0 -> a
+    android.widget.EditText val$password -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.OfflinePasswordForm$3 -> ep:
+    com.clancy.aticket.OfflinePasswordForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ParkByPhoneForm -> com.clancy.aticket.ParkByPhoneForm:
+    android.speech.tts.TextToSpeech mTts -> a
+    int REQUEST_CODE -> b
+    java.lang.Runnable mRunnable -> c
+    void EnterClick() -> a
+    void onDestroy() -> onDestroy
+    void onCreate(android.os.Bundle) -> onCreate
+    void startVoiceRecognitionActivity() -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onInit(int) -> onInit
+    void access$0(com.clancy.aticket.ParkByPhoneForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.ParkByPhoneForm) -> b
+    void access$2(com.clancy.aticket.ParkByPhoneForm) -> c
+com.clancy.aticket.ParkByPhoneForm$1 -> eq:
+    com.clancy.aticket.ParkByPhoneForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.ParkByPhoneForm$2 -> er:
+    com.clancy.aticket.ParkByPhoneForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ParkByPhoneForm$3 -> es:
+    com.clancy.aticket.ParkByPhoneForm this$0 -> a
+    android.widget.Button val$enter -> b
+    android.widget.TextView val$tvMessage -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ParkByPhoneForm$4 -> et:
+    com.clancy.aticket.ParkByPhoneForm this$0 -> a
+    android.widget.Button val$enter -> b
+    android.widget.TextView val$tvMessage -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ParkByPhoneForm$5 -> eu:
+    com.clancy.aticket.ParkByPhoneForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PasswordForm -> com.clancy.aticket.PasswordForm:
+    android.os.Handler handler -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.PasswordForm) -> a
+com.clancy.aticket.PasswordForm$1 -> ev:
+    com.clancy.aticket.PasswordForm this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.clancy.aticket.PasswordForm$2 -> ew:
+    com.clancy.aticket.PasswordForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PasswordForm$3 -> ex:
+    com.clancy.aticket.PasswordForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PasswordForm$4 -> ey:
+    com.clancy.aticket.PasswordForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PermitForm -> com.clancy.aticket.PermitForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.PermitForm) -> a
+com.clancy.aticket.PermitForm$1 -> ez:
+    com.clancy.aticket.PermitForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PermitForm$2 -> eA:
+    com.clancy.aticket.PermitForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PermitForm$3 -> eB:
+    com.clancy.aticket.PermitForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PermitRoutines -> eC:
+    int GetPermitList(java.lang.String,android.content.Context) -> a
+com.clancy.aticket.PermitTestForm -> com.clancy.aticket.PermitTestForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.PlateForm -> com.clancy.aticket.PlateForm:
+    android.os.Handler handler -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void access$0(com.clancy.aticket.PlateForm) -> a
+com.clancy.aticket.PlateForm$1 -> eD:
+    com.clancy.aticket.PlateForm this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.clancy.aticket.PlateForm$2 -> eE:
+    com.clancy.aticket.PlateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateForm$3 -> eF:
+    com.clancy.aticket.PlateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateForm$4 -> eG:
+    com.clancy.aticket.PlateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PlateHistoryForm -> com.clancy.aticket.PlateHistoryForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.PlateHistoryForm) -> a
+com.clancy.aticket.PlateHistoryForm$1 -> eH:
+    com.clancy.aticket.PlateHistoryForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateHistoryForm$2 -> eI:
+    com.clancy.aticket.PlateHistoryForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateHistoryForm$3 -> eJ:
+    com.clancy.aticket.PlateHistoryForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PlateInfo -> eK:
+    void GetPlateInfo(android.content.Context) -> a
+    void GetSecondaryPlateInfo(android.content.Context) -> b
+com.clancy.aticket.PlateTypeForm -> com.clancy.aticket.PlateTypeForm:
+    void EnterClick() -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.PlateTypeForm) -> a
+    void access$1(com.clancy.aticket.PlateTypeForm,java.lang.String) -> a
+    void access$2(com.clancy.aticket.PlateTypeForm) -> b
+    void access$3(com.clancy.aticket.PlateTypeForm) -> c
+com.clancy.aticket.PlateTypeForm$1 -> eL:
+    com.clancy.aticket.PlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateTypeForm$2 -> eM:
+    com.clancy.aticket.PlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateTypeForm$3 -> eN:
+    com.clancy.aticket.PlateTypeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PlateTypeForm$4 -> eO:
+    com.clancy.aticket.PlateTypeForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.PlateTypeForm$5 -> eP:
+    com.clancy.aticket.PlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateTypeForm$6 -> eQ:
+    com.clancy.aticket.PlateTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateYearForm -> com.clancy.aticket.PlateYearForm:
+    void EnterClick() -> a
+    void YearDown() -> b
+    void YearUp() -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.PlateYearForm) -> a
+    void access$1(com.clancy.aticket.PlateYearForm) -> b
+    void access$2(com.clancy.aticket.PlateYearForm) -> c
+com.clancy.aticket.PlateYearForm$1 -> eR:
+    com.clancy.aticket.PlateYearForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateYearForm$2 -> eS:
+    com.clancy.aticket.PlateYearForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateYearForm$3 -> eT:
+    com.clancy.aticket.PlateYearForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateYearForm$4 -> eU:
+    com.clancy.aticket.PlateYearForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateYearForm$5 -> eV:
+    com.clancy.aticket.PlateYearForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PlateYearForm$6 -> eW:
+    com.clancy.aticket.PlateYearForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.PrintForm -> com.clancy.aticket.PrintForm:
+    android.widget.TextView TextUpdate -> j
+    android.widget.TextView TextCitation -> k
+    android.bluetooth.BluetoothSocket tmp -> a
+    java.lang.Boolean BTConnected -> b
+    android.os.Handler mHandler -> c
+    java.lang.String message -> d
+    int PicturesPrinted -> e
+    java.lang.Runnable mConnectBT -> f
+    java.lang.Runnable mConnectBTWithOldSupport -> g
+    java.lang.Runnable mPrintThis -> h
+    java.lang.Runnable mCloseBT -> i
+    java.lang.Runnable mExitForm -> l
+    java.lang.Runnable mExitSelFunc -> m
+    java.lang.Runnable mDetectBT -> n
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.TextView access$0(com.clancy.aticket.PrintForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.PrintForm) -> b
+    java.lang.Runnable access$2(com.clancy.aticket.PrintForm) -> c
+    java.lang.Runnable access$3(com.clancy.aticket.PrintForm) -> d
+com.clancy.aticket.PrintForm$1 -> eX:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$2 -> eY:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$3 -> eZ:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$4 -> fa:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$5 -> fb:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$6 -> fc:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$7 -> fd:
+    com.clancy.aticket.PrintForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.PrintForm$8 -> fe:
+    com.clancy.aticket.PrintForm this$0 -> a
+    android.widget.Button val$tryAgain -> b
+    android.widget.Button val$skip -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintForm$9 -> ff:
+    com.clancy.aticket.PrintForm this$0 -> a
+    android.widget.Button val$skip -> b
+    android.widget.Button val$tryAgain -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintPictureFast -> fg:
+    void PrintPicturesFast(java.lang.String,android.content.Context,java.io.OutputStream) -> a
+    android.graphics.Bitmap getResizedBitmap(android.graphics.Bitmap,int,int) -> a
+    android.graphics.Bitmap toGrayscale(android.graphics.Bitmap) -> a
+com.clancy.aticket.PrintSelectForm -> com.clancy.aticket.PrintSelectForm:
+    boolean OneChecked -> a
+    boolean TwoChecked -> b
+    boolean ThreeChecked -> c
+    boolean IsPicOne -> d
+    boolean IsPicTwo -> e
+    boolean IsPicThree -> f
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.PrintSelectForm$1 -> fh:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic5View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintSelectForm$2 -> fi:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic5View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintSelectForm$3 -> fj:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic6View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintSelectForm$4 -> fk:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic6View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintSelectForm$5 -> fl:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic7View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintSelectForm$6 -> fm:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic7View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.PrintSelectForm$7 -> fn:
+    com.clancy.aticket.PrintSelectForm this$0 -> a
+    android.widget.ImageView val$pic4View -> b
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ProgramFlow -> com.clancy.aticket.ProgramFlow:
+    java.lang.String GetNextSetupForm(android.content.Context) -> a
+    java.lang.String GetNextForm(java.lang.String,android.content.Context) -> a
+    java.lang.String GetNextChalkingForm(android.content.Context) -> b
+    java.lang.String GetNextRatesForm(android.content.Context) -> c
+    java.lang.Boolean AllowDirection(android.content.Context) -> d
+com.clancy.aticket.R -> fo:
+com.clancy.aticket.R$attr -> fp:
+com.clancy.aticket.R$drawable -> fq:
+    int back_arrow -> back_arrow
+    int checkmark -> checkmark
+    int clancy -> clancy
+    int clancy1 -> clancy1
+    int clancy_large -> clancy_large
+    int clancy_small -> clancy_small
+    int clancyicon -> clancyicon
+    int clancyold -> clancyold
+    int delete_black -> delete_black
+    int forward_arrow -> forward_arrow
+    int icon -> icon
+    int key_back1 -> key_back1
+    int key_back3 -> key_back3
+    int large_back_arrow -> large_back_arrow
+    int large_forward_arrow -> large_forward_arrow
+    int leftarrow -> leftarrow
+    int next -> next
+    int nextblue -> nextblue
+    int pic1 -> pic1
+    int pic1blue -> pic1blue
+    int pic2 -> pic2
+    int pic2blue -> pic2blue
+    int pic3 -> pic3
+    int pic3blue -> pic3blue
+    int printa -> printa
+    int printablue -> printablue
+    int reddot -> reddot
+    int rightarrow -> rightarrow
+    int space_new -> space_new
+    int white -> white
+com.clancy.aticket.R$id -> fr:
+    int ButtonGo -> ButtonGo
+    int ButtonLast -> ButtonLast
+    int ButtonMap -> ButtonMap
+    int ButtonNext -> ButtonNext
+    int ButtonNone -> ButtonNone
+    int ButtonSecondary -> ButtonSecondary
+    int ButtonSettings -> ButtonSettings
+    int EditTextCash -> EditTextCash
+    int ImageView01 -> ImageView01
+    int TextCitation -> TextCitation
+    int TextImageWidth -> TextImageWidth
+    int TextMessage -> TextMessage
+    int TextView01 -> TextView01
+    int TextView02 -> TextView02
+    int TextView03 -> TextView03
+    int TextView04 -> TextView04
+    int TextView05 -> TextView05
+    int TextView1 -> TextView1
+    int TextView2 -> TextView2
+    int TextViewClient -> TextViewClient
+    int TextViewCount -> TextViewCount
+    int TextViewCurrent -> TextViewCurrent
+    int TextViewCurrentTime -> TextViewCurrentTime
+    int TextViewDesc1 -> TextViewDesc1
+    int TextViewDesc2 -> TextViewDesc2
+    int TextViewDesc3 -> TextViewDesc3
+    int TextViewDesc4 -> TextViewDesc4
+    int TextViewDisplay -> TextViewDisplay
+    int TextViewKey -> TextViewKey
+    int TextViewLast -> TextViewLast
+    int TextViewLat -> TextViewLat
+    int TextViewLong -> TextViewLong
+    int TextViewNext -> TextViewNext
+    int TextViewPermitType -> TextViewPermitType
+    int TextViewTime -> TextViewTime
+    int TextViewUnitNumber -> TextViewUnitNumber
+    int button1 -> button1
+    int button2 -> button2
+    int buttonBegin -> buttonBegin
+    int buttonClear -> buttonClear
+    int buttonDONE -> buttonDONE
+    int buttonESC -> buttonESC
+    int buttonEnter -> buttonEnter
+    int buttonExit -> buttonExit
+    int buttonForward -> buttonForward
+    int buttonFour -> buttonFour
+    int buttonLess -> buttonLess
+    int buttonMore -> buttonMore
+    int buttonNext -> buttonNext
+    int buttonNone -> buttonNone
+    int buttonOne -> buttonOne
+    int buttonPlateThree -> buttonPlateThree
+    int buttonPlus -> buttonPlus
+    int buttonPrevious -> buttonPrevious
+    int buttonRetry -> buttonRetry
+    int buttonSkip -> buttonSkip
+    int buttonSpeak -> buttonSpeak
+    int buttonStore -> buttonStore
+    int buttonTalk -> buttonTalk
+    int buttonThree -> buttonThree
+    int buttonTryAgain -> buttonTryAgain
+    int buttonTwo -> buttonTwo
+    int camera_preview -> camera_preview
+    int checkBox1 -> checkBox1
+    int checkBoxOffine -> checkBoxOffine
+    int editTextBadge -> editTextBadge
+    int editTextBody -> editTextBody
+    int editTextColor -> editTextColor
+    int editTextComment -> editTextComment
+    int editTextCrossStreet -> editTextCrossStreet
+    int editTextDay -> editTextDay
+    int editTextDept -> editTextDept
+    int editTextEmail -> editTextEmail
+    int editTextHours -> editTextHours
+    int editTextIP -> editTextIP
+    int editTextLGStreet -> editTextLGStreet
+    int editTextLanguage -> editTextLanguage
+    int editTextLastFour -> editTextLastFour
+    int editTextMake -> editTextMake
+    int editTextMinutes -> editTextMinutes
+    int editTextMonth -> editTextMonth
+    int editTextNumber -> editTextNumber
+    int editTextOfficer -> editTextOfficer
+    int editTextPassword -> editTextPassword
+    int editTextPermit -> editTextPermit
+    int editTextPlate -> editTextPlate
+    int editTextPlateYear -> editTextPlateYear
+    int editTextPlatemonth -> editTextPlatemonth
+    int editTextReason -> editTextReason
+    int editTextSelectLot -> editTextSelectLot
+    int editTextStreet -> editTextStreet
+    int editTextTag -> editTextTag
+    int editTextTirestem -> editTextTirestem
+    int editTextUnit -> editTextUnit
+    int editTextVin -> editTextVin
+    int editTextViolate -> editTextViolate
+    int editTextXMeter -> editTextXMeter
+    int editTextYear -> editTextYear
+    int editTextbeat -> editTextbeat
+    int editTextcomment -> editTextcomment
+    int editTextdirection -> editTextdirection
+    int editTextliccolor -> editTextliccolor
+    int editTextmeter -> editTextmeter
+    int editTextnewplatetype -> editTextnewplatetype
+    int editTextplatetype -> editTextplatetype
+    int editTextstate -> editTextstate
+    int editTextstreettype -> editTextstreettype
+    int imageView1 -> imageView1
+    int imageView2 -> imageView2
+    int imageView3 -> imageView3
+    int imageView4 -> imageView4
+    int imageView5 -> imageView5
+    int imageView6 -> imageView6
+    int imageView7 -> imageView7
+    int keyboardView -> keyboardView
+    int keyboardView2 -> keyboardView2
+    int labelMessage -> labelMessage
+    int listView1 -> listView1
+    int progressBar1 -> progressBar1
+    int spinnerLocation -> spinnerLocation
+    int textEmail -> textEmail
+    int textMessage -> textMessage
+    int textMessage2 -> textMessage2
+    int textPlate -> textPlate
+    int textView1 -> textView1
+    int textView2 -> textView2
+    int textViewCount -> textViewCount
+    int textViewDesc1 -> textViewDesc1
+    int textViewDesc2 -> textViewDesc2
+    int textViewDesc3 -> textViewDesc3
+    int textViewLotName -> textViewLotName
+    int textViewLotNumber -> textViewLotNumber
+    int textViewMsg -> textViewMsg
+    int textViewMsg1 -> textViewMsg1
+    int textViewMsg2 -> textViewMsg2
+    int textViewOrdinance -> textViewOrdinance
+    int textViewPlate -> textViewPlate
+    int textViewTime -> textViewTime
+    int webView1 -> webView1
+    int widget1 -> widget1
+    int widget34 -> widget34
+    int widget37 -> widget37
+    int widget62 -> widget62
+    int widget63 -> widget63
+    int widget64 -> widget64
+    int widget65 -> widget65
+    int widget66 -> widget66
+    int widgetEnterBadge -> widgetEnterBadge
+    int widgetEnterBody -> widgetEnterBody
+    int widgetEnterColor -> widgetEnterColor
+    int widgetEnterComment -> widgetEnterComment
+    int widgetEnterCrossStreet -> widgetEnterCrossStreet
+    int widgetEnterDept -> widgetEnterDept
+    int widgetEnterHours -> widgetEnterHours
+    int widgetEnterIP -> widgetEnterIP
+    int widgetEnterLGStreet -> widgetEnterLGStreet
+    int widgetEnterLanguage -> widgetEnterLanguage
+    int widgetEnterLastFour -> widgetEnterLastFour
+    int widgetEnterMake -> widgetEnterMake
+    int widgetEnterMonth -> widgetEnterMonth
+    int widgetEnterNumber -> widgetEnterNumber
+    int widgetEnterOfficer -> widgetEnterOfficer
+    int widgetEnterPassword -> widgetEnterPassword
+    int widgetEnterPermit -> widgetEnterPermit
+    int widgetEnterPlate -> widgetEnterPlate
+    int widgetEnterPlateYear -> widgetEnterPlateYear
+    int widgetEnterPlatemonth -> widgetEnterPlatemonth
+    int widgetEnterSelectLot -> widgetEnterSelectLot
+    int widgetEnterStreet -> widgetEnterStreet
+    int widgetEnterTag -> widgetEnterTag
+    int widgetEnterTirestem -> widgetEnterTirestem
+    int widgetEnterUnit -> widgetEnterUnit
+    int widgetEnterVin -> widgetEnterVin
+    int widgetEnterViolate -> widgetEnterViolate
+    int widgetEnterWiFi -> widgetEnterWiFi
+    int widgetEnterXMeter -> widgetEnterXMeter
+    int widgetEnterbeat -> widgetEnterbeat
+    int widgetEntercomment -> widgetEntercomment
+    int widgetEnterdirection -> widgetEnterdirection
+    int widgetEnterliccolor -> widgetEnterliccolor
+    int widgetEntermeter -> widgetEntermeter
+    int widgetEnternewplatetype -> widgetEnternewplatetype
+    int widgetEnterplatetype -> widgetEnterplatetype
+    int widgetEnterstate -> widgetEnterstate
+    int widgetEnterstreettype -> widgetEnterstreettype
+    int widgetPrint -> widgetPrint
+    int widgetRefresh -> widgetRefresh
+com.clancy.aticket.R$layout -> fs:
+    int addcomment1form -> addcomment1form
+    int addcomment2form -> addcomment2form
+    int addcomment3form -> addcomment3form
+    int addfeeform -> addfeeform
+    int badgeform -> badgeform
+    int beatform -> beatform
+    int bodyform -> bodyform
+    int bootform -> bootform
+    int buildingform -> buildingform
+    int cameraform -> cameraform
+    int chalkform -> chalkform
+    int chalktimeform -> chalktimeform
+    int clancydotjform -> clancydotjform
+    int clancyjform -> clancyjform
+    int colorform -> colorform
+    int comment1form -> comment1form
+    int comment2form -> comment2form
+    int comment3form -> comment3form
+    int commentform -> commentform
+    int countform -> countform
+    int courtdateform -> courtdateform
+    int crossstreetform -> crossstreetform
+    int customdateform -> customdateform
+    int customtimeform -> customtimeform
+    int deptform -> deptform
+    int detailsform -> detailsform
+    int directionform -> directionform
+    int displayspaceform -> displayspaceform
+    int emailform -> emailform
+    int getbootform -> getbootform
+    int googlemapsform -> googlemapsform
+    int gpsform -> gpsform
+    int hboxcameraform -> hboxcameraform
+    int hboxdownloadform -> hboxdownloadform
+    int hboxselectlotform -> hboxselectlotform
+    int hboxuploadform -> hboxuploadform
+    int honorcashform -> honorcashform
+    int honorlotform -> honorlotform
+    int ipaddressform -> ipaddressform
+    int lamtapermitform -> lamtapermitform
+    int languageform -> languageform
+    int lastfourform -> lastfourform
+    int lgstreetform -> lgstreetform
+    int lgstreetspinform -> lgstreetspinform
+    int liccolorform -> liccolorform
+    int main -> main
+    int makeform -> makeform
+    int meterform -> meterform
+    int monthform -> monthform
+    int multiplechalksform -> multiplechalksform
+    int newpermitform -> newpermitform
+    int newplatetypeform -> newplatetypeform
+    int nextlastform -> nextlastform
+    int numberform -> numberform
+    int nyvinform -> nyvinform
+    int officerform -> officerform
+    int offlinepasswordform -> offlinepasswordform
+    int parkbyphoneform -> parkbyphoneform
+    int passwordform -> passwordform
+    int permitform -> permitform
+    int plateform -> plateform
+    int platehistoryform -> platehistoryform
+    int platetypeform -> platetypeform
+    int plateyearform -> plateyearform
+    int printform -> printform
+    int printselectform -> printselectform
+    int ratesform -> ratesform
+    int refreshform -> refreshform
+    int richmondnumberform -> richmondnumberform
+    int selfuncform -> selfuncform
+    int showtimeform -> showtimeform
+    int stateform -> stateform
+    int stemform -> stemform
+    int stickerform -> stickerform
+    int streetform -> streetform
+    int streettypeform -> streettypeform
+    int tempexpireform -> tempexpireform
+    int tempplateform -> tempplateform
+    int ticketpromptform -> ticketpromptform
+    int ticketspeechform -> ticketspeechform
+    int unitnumberform -> unitnumberform
+    int uploadform -> uploadform
+    int vehiclehistoryform -> vehiclehistoryform
+    int vinform -> vinform
+    int violateform -> violateform
+    int virtpermform -> virtpermform
+    int wifionform -> wifionform
+    int xmeterform -> xmeterform
+com.clancy.aticket.R$raw -> ft:
+    int dansgestures -> dansgestures
+com.clancy.aticket.R$string -> fu:
+    int add_fee -> add_fee
+    int additional_comment1 -> additional_comment1
+    int additional_comment2 -> additional_comment2
+    int additional_comment3 -> additional_comment3
+    int ampersand -> ampersand
+    int app_done -> app_done
+    int app_esc -> app_esc
+    int app_name -> app_name
+    int atsign -> atsign
+    int begin -> begin
+    int blank -> blank
+    int block_of -> block_of
+    int building_lot -> building_lot
+    int building_lot_three -> building_lot_three
+    int building_lot_two -> building_lot_two
+    int call_clancy -> call_clancy
+    int chalk_time -> chalk_time
+    int cite_key -> cite_key
+    int colorado -> colorado
+    int comment -> comment
+    int continue_message -> continue_message
+    int count_tickets -> count_tickets
+    int court_date -> court_date
+    int current_time -> current_time
+    int custom_date -> custom_date
+    int custom_time -> custom_time
+    int department -> department
+    int desc1 -> desc1
+    int desc2 -> desc2
+    int desc3 -> desc3
+    int desc4 -> desc4
+    int direction -> direction
+    int displayed_here -> displayed_here
+    int dollarsign -> dollarsign
+    int done -> done
+    int email -> email
+    int empty_string_6 -> empty_string_6
+    int enter -> enter
+    int enter_badge -> enter_badge
+    int enter_beat -> enter_beat
+    int enter_body -> enter_body
+    int enter_color -> enter_color
+    int enter_comment1 -> enter_comment1
+    int enter_comment2 -> enter_comment2
+    int enter_comment3 -> enter_comment3
+    int enter_crossstreet -> enter_crossstreet
+    int enter_lgstreet -> enter_lgstreet
+    int enter_meter -> enter_meter
+    int enter_number -> enter_number
+    int enter_officer -> enter_officer
+    int enter_password -> enter_password
+    int enter_plate -> enter_plate
+    int enter_state -> enter_state
+    int enter_street -> enter_street
+    int enter_temp_plate -> enter_temp_plate
+    int enter_unit_number -> enter_unit_number
+    int enter_vin -> enter_vin
+    int exit -> exit
+    int forceupdate -> forceupdate
+    int go -> go
+    int google_maps -> google_maps
+    int hbox_checks -> hbox_checks
+    int hbox_lot -> hbox_lot
+    int hello -> hello
+    int image_name -> image_name
+    int image_width -> image_width
+    int incorrect -> incorrect
+    int issued -> issued
+    int last -> last
+    int last_four -> last_four
+    int last_four_options -> last_four_options
+    int lat_short -> lat_short
+    int liccolor -> liccolor
+    int long_short -> long_short
+    int main_line_five -> main_line_five
+    int main_line_four -> main_line_four
+    int main_line_one -> main_line_one
+    int main_line_six -> main_line_six
+    int main_line_three -> main_line_three
+    int main_line_two -> main_line_two
+    int make -> make
+    int message -> message
+    int messagechalk -> messagechalk
+    int messagecurrent -> messagecurrent
+    int messagenew -> messagenew
+    int messagetime -> messagetime
+    int n -> n
+    int newplatetype -> newplatetype
+    int next -> next
+    int next_short -> next_short
+    int none -> none
+    int north -> north
+    int numbersign -> numbersign
+    int offender -> offender
+    int ordinance -> ordinance
+    int permit -> permit
+    int plate -> plate
+    int plate_month -> plate_month
+    int plate_year -> plate_year
+    int please_wait -> please_wait
+    int plusplus -> plusplus
+    int previous -> previous
+    int rates -> rates
+    int refresh_data -> refresh_data
+    int refresh_repeat -> refresh_repeat
+    int retrieving_previous -> retrieving_previous
+    int retry -> retry
+    int saving -> saving
+    int secondary -> secondary
+    int select_function -> select_function
+    int select_lot -> select_lot
+    int select_pics -> select_pics
+    int settings -> settings
+    int shortcut -> shortcut
+    int skip -> skip
+    int space_number -> space_number
+    int spanish_one -> spanish_one
+    int spanish_two -> spanish_two
+    int speak -> speak
+    int stem -> stem
+    int sticker -> sticker
+    int store_last -> store_last
+    int streettype -> streettype
+    int tag -> tag
+    int take_picture -> take_picture
+    int talk -> talk
+    int temp_expire_date -> temp_expire_date
+    int ticket_issuance -> ticket_issuance
+    int time -> time
+    int try_again -> try_again
+    int twentytwelve -> twentytwelve
+    int unit -> unit
+    int update -> update
+    int uploading -> uploading
+    int version -> version
+    int violation -> violation
+    int violcode -> violcode
+    int wifion -> wifion
+    int write_ticket -> write_ticket
+    int xxxcomment -> xxxcomment
+    int y -> y
+com.clancy.aticket.R$xml -> fv:
+    int full -> full
+    int ipkey -> ipkey
+    int license -> license
+    int nsew -> nsew
+    int numbermic -> numbermic
+    int numbers -> numbers
+    int numonly -> numonly
+    int sbpdstreet -> sbpdstreet
+    int secondary -> secondary
+com.clancy.aticket.RatesForm -> com.clancy.aticket.RatesForm:
+    int CurrentRateCheck -> a
+    int TextLength -> b
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.RatesForm) -> a
+com.clancy.aticket.RatesForm$1 -> fw:
+    com.clancy.aticket.RatesForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.RatesForm$2 -> fx:
+    com.clancy.aticket.RatesForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.RatesForm$3 -> fy:
+    com.clancy.aticket.RatesForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ReadCustom -> fz:
+    void ReadCustomLayout(android.content.Context) -> a
+com.clancy.aticket.ReadLayout -> fA:
+    java.lang.String PrintALittleBit(java.lang.String,android.content.Context,java.io.OutputStream) -> a
+    int PrintThis(java.lang.String,java.io.OutputStream) -> a
+    int PrintThisTrimmed(java.lang.String,java.io.OutputStream) -> b
+    void FeedPaperDots2(int,java.io.OutputStream) -> a
+com.clancy.aticket.RefreshForm -> com.clancy.aticket.RefreshForm:
+    android.os.Handler mHandler -> b
+    android.widget.TextView TextUpdate -> c
+    int i -> d
+    java.lang.String[] dbHoldValues -> e
+    com.clancy.aticket.HTTPFileTransfer writetest -> f
+    java.lang.String InstallParam -> a
+    java.lang.Runnable mHTTPConnectRunnable -> g
+    java.lang.Runnable mWaitRunnable -> h
+    java.lang.Runnable mCheckVersion -> i
+    void DownloadLatestVersion() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$0(com.clancy.aticket.RefreshForm) -> a
+    java.lang.Runnable access$1(com.clancy.aticket.RefreshForm) -> b
+    void access$2(com.clancy.aticket.RefreshForm,com.clancy.aticket.HTTPFileTransfer) -> a
+    java.lang.String[] access$3(com.clancy.aticket.RefreshForm) -> c
+    int access$4(com.clancy.aticket.RefreshForm) -> d
+    android.widget.TextView access$5(com.clancy.aticket.RefreshForm) -> e
+    java.lang.Runnable access$6(com.clancy.aticket.RefreshForm) -> f
+    com.clancy.aticket.HTTPFileTransfer access$7(com.clancy.aticket.RefreshForm) -> g
+    void access$8(com.clancy.aticket.RefreshForm,int) -> a
+com.clancy.aticket.RefreshForm$1 -> fB:
+    com.clancy.aticket.RefreshForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.RefreshForm$2 -> fC:
+    com.clancy.aticket.RefreshForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.RefreshForm$3 -> fD:
+    com.clancy.aticket.RefreshForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.RichmondNumberForm -> com.clancy.aticket.RichmondNumberForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.RichmondNumberForm) -> a
+com.clancy.aticket.RichmondNumberForm$1 -> fE:
+    com.clancy.aticket.RichmondNumberForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.RichmondNumberForm$2 -> fF:
+    com.clancy.aticket.RichmondNumberForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.RichmondNumberForm$3 -> fG:
+    com.clancy.aticket.RichmondNumberForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.SaveTicket -> fH:
+    int MODE_APPEND -> a
+    int MODE_PRIVATE -> b
+    java.lang.Boolean SaveTickFile(android.content.Context) -> a
+    void WriteNextCitationNumber(android.content.Context) -> b
+    void SaveVMultiPlate(java.lang.String,android.content.Context) -> a
+    void SaveAddiFile(java.lang.String,java.lang.String,java.lang.String,android.content.Context) -> a
+    void SaveLocaTFile(java.lang.String,android.content.Context) -> b
+    void SaveVoidTFile(android.content.Context) -> c
+    void SaveChecFile(android.content.Context) -> d
+    void SaveHittFile(android.content.Context) -> e
+    void SaveWiFiFile(android.content.Context,java.lang.String) -> a
+    void SaveReprintFile(android.content.Context) -> f
+    void ReadReprintFile(android.content.Context) -> g
+com.clancy.aticket.SearchData -> com.clancy.aticket.SearchData:
+    int GetFileSize(java.lang.String) -> a
+    java.lang.String GetRecordNumberNoLength(java.lang.String,int,android.content.Context) -> a
+    java.lang.String ScrollDownThroughFile(java.lang.String,android.content.Context) -> a
+    java.lang.String ScrollUpThroughFile(java.lang.String,android.content.Context) -> b
+    java.lang.String FindRecordLine(java.lang.String,int,java.lang.String,android.content.Context) -> a
+    java.lang.String FindValueInRecord(java.lang.String,int,java.lang.String,android.content.Context) -> b
+    java.lang.String SearchVBootT(java.lang.String,int,java.lang.String,android.content.Context) -> c
+    java.lang.String GetRecordNumber(java.lang.String,int,int,android.content.Context) -> a
+com.clancy.aticket.SelFuncForm -> com.clancy.aticket.SelFuncForm:
+    int CurrentRecordPointer -> a
+    void EnterClick(android.view.View) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void GetMenuItem(int) -> a
+    void ScrollMenuFile(int) -> b
+    void access$0(com.clancy.aticket.SelFuncForm,android.view.View) -> a
+com.clancy.aticket.SelFuncForm$1 -> fI:
+    com.clancy.aticket.SelFuncForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.SelFuncForm$2 -> fJ:
+    com.clancy.aticket.SelFuncForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.SelFuncForm$3 -> fK:
+    com.clancy.aticket.SelFuncForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.SelFuncForm$4 -> fL:
+    com.clancy.aticket.SelFuncForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.SendVitals -> fM:
+    void UpdateVitals(java.lang.String,android.content.Context) -> a
+    void GetPhoneNumber(android.content.Context) -> a
+    void GetPhoneModel(android.content.Context) -> b
+com.clancy.aticket.ShowTimeForm -> com.clancy.aticket.ShowTimeForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.ShowTimeForm$1 -> fN:
+    com.clancy.aticket.ShowTimeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ShowTimeForm$2 -> fO:
+    com.clancy.aticket.ShowTimeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.Starter -> fP:
+com.clancy.aticket.StateForm -> com.clancy.aticket.StateForm:
+    void EnterClick() -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.StateForm) -> a
+    void access$1(com.clancy.aticket.StateForm,java.lang.String) -> a
+    void access$2(com.clancy.aticket.StateForm) -> b
+    void access$3(com.clancy.aticket.StateForm) -> c
+com.clancy.aticket.StateForm$1 -> fQ:
+    com.clancy.aticket.StateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StateForm$2 -> fR:
+    com.clancy.aticket.StateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StateForm$3 -> fS:
+    com.clancy.aticket.StateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.StateForm$4 -> fT:
+    com.clancy.aticket.StateForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.StateForm$5 -> fU:
+    com.clancy.aticket.StateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StateForm$6 -> fV:
+    com.clancy.aticket.StateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StemForm -> com.clancy.aticket.StemForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.StemForm) -> a
+com.clancy.aticket.StemForm$1 -> fW:
+    com.clancy.aticket.StemForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StemForm$2 -> fX:
+    com.clancy.aticket.StemForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StemForm$3 -> fY:
+    com.clancy.aticket.StemForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.StickerForm -> com.clancy.aticket.StickerForm:
+    android.inputmethodservice.KeyboardView keyboardView -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.StickerForm) -> a
+com.clancy.aticket.StickerForm$1 -> fZ:
+    com.clancy.aticket.StickerForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StickerForm$2 -> ga:
+    com.clancy.aticket.StickerForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StickerForm$3 -> gb:
+    com.clancy.aticket.StickerForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StickerForm$4 -> gc:
+    com.clancy.aticket.StickerForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.StickerForm$5 -> gd:
+    com.clancy.aticket.StickerForm this$0 -> a
+    android.widget.EditText val$Month -> b
+    android.widget.EditText val$Year -> c
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.StickerForm$6 -> ge:
+    com.clancy.aticket.StickerForm this$0 -> a
+    android.widget.EditText val$Month -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.StickerForm$7 -> gf:
+    com.clancy.aticket.StickerForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.StreetForm -> com.clancy.aticket.StreetForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.StreetForm) -> a
+    void access$1(com.clancy.aticket.StreetForm) -> b
+    void access$2(com.clancy.aticket.StreetForm) -> c
+    void access$3(com.clancy.aticket.StreetForm,java.lang.String) -> a
+com.clancy.aticket.StreetForm$1 -> gg:
+    com.clancy.aticket.StreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetForm$2 -> gh:
+    com.clancy.aticket.StreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetForm$3 -> gi:
+    com.clancy.aticket.StreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetForm$4 -> gj:
+    com.clancy.aticket.StreetForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetForm$5 -> gk:
+    com.clancy.aticket.StreetForm this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$Street -> c
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetForm$6 -> gl:
+    com.clancy.aticket.StreetForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.StreetForm$7 -> gm:
+    com.clancy.aticket.StreetForm this$0 -> a
+    android.widget.Button val$secondary -> b
+    android.widget.EditText val$Street -> c
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.StreetTypeForm -> com.clancy.aticket.StreetTypeForm:
+    void EnterClick() -> a
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.StreetTypeForm) -> a
+    void access$1(com.clancy.aticket.StreetTypeForm) -> b
+    void access$2(com.clancy.aticket.StreetTypeForm) -> c
+    void access$3(com.clancy.aticket.StreetTypeForm,java.lang.String) -> a
+com.clancy.aticket.StreetTypeForm$1 -> gn:
+    com.clancy.aticket.StreetTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetTypeForm$2 -> go:
+    com.clancy.aticket.StreetTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetTypeForm$3 -> gp:
+    com.clancy.aticket.StreetTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetTypeForm$4 -> gq:
+    com.clancy.aticket.StreetTypeForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.StreetTypeForm$5 -> gr:
+    com.clancy.aticket.StreetTypeForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.StreetTypeForm$6 -> gs:
+    com.clancy.aticket.StreetTypeForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.SwitchForm -> com.clancy.aticket.SwitchForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.SystemIOFile -> gt:
+    void Delete(java.lang.String) -> a
+    java.lang.Boolean exists(java.lang.String) -> b
+    void copyFile(java.lang.String,java.lang.String) -> a
+    void SavePrintLog(java.lang.String,android.content.Context) -> a
+com.clancy.aticket.TempExpireForm -> com.clancy.aticket.TempExpireForm:
+    android.inputmethodservice.KeyboardView keyboardView -> a
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.TempExpireForm) -> a
+com.clancy.aticket.TempExpireForm$1 -> gu:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.TempExpireForm$2 -> gv:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.TempExpireForm$3 -> gw:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.TempExpireForm$4 -> gx:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.TempExpireForm$5 -> gy:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.TempExpireForm$6 -> gz:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    android.widget.EditText val$Month -> b
+    android.widget.EditText val$Day -> c
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.TempExpireForm$7 -> gA:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    android.widget.EditText val$Day -> b
+    android.widget.EditText val$Year -> c
+    android.widget.EditText val$Month -> d
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.TempExpireForm$8 -> gB:
+    com.clancy.aticket.TempExpireForm this$0 -> a
+    android.widget.EditText val$Day -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.TempPlateForm -> com.clancy.aticket.TempPlateForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.TempPlateForm) -> a
+com.clancy.aticket.TempPlateForm$1 -> gC:
+    com.clancy.aticket.TempPlateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.TempPlateForm$2 -> gD:
+    com.clancy.aticket.TempPlateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.TempPlateForm$3 -> gE:
+    com.clancy.aticket.TempPlateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.TicketPromptForm -> com.clancy.aticket.TicketPromptForm:
+    void onCreate(android.os.Bundle) -> onCreate
+    void IssueHonorTicket(android.content.Context) -> a
+com.clancy.aticket.TicketPromptForm$1 -> gF:
+    com.clancy.aticket.TicketPromptForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.TicketPromptForm$2 -> gG:
+    com.clancy.aticket.TicketPromptForm this$0 -> a
+    android.widget.EditText val$Reason -> b
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.clancy.aticket.TicketSpeechForm -> com.clancy.aticket.TicketSpeechForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.TicketSpeechForm$1 -> gH:
+    com.clancy.aticket.TicketSpeechForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.UnitNumberForm -> com.clancy.aticket.UnitNumberForm:
+    android.bluetooth.BluetoothAdapter mBluetoothAdapter -> a
+    int REQUEST_ENABLE_BT -> f
+    android.os.Handler mHandler -> g
+    android.content.BroadcastReceiver mReceiver -> b
+    java.lang.String newString -> c
+    java.lang.String BTAddress -> d
+    java.lang.Boolean FoundUnit -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String CheckForBTEnabled() -> a
+    boolean SetBTReceiverMethod() -> b
+    android.os.Handler access$0(com.clancy.aticket.UnitNumberForm) -> a
+com.clancy.aticket.UnitNumberForm$1 -> gI:
+    com.clancy.aticket.UnitNumberForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.UnitNumberForm$2 -> gJ:
+    com.clancy.aticket.UnitNumberForm this$0 -> a
+    android.widget.TextView val$UpdateMessage -> b
+    void run() -> run
+com.clancy.aticket.UnitNumberForm$3 -> gK:
+    com.clancy.aticket.UnitNumberForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.UnitNumberForm$4 -> gL:
+    com.clancy.aticket.UnitNumberForm this$0 -> a
+    android.widget.TextView val$UpdateMessage -> b
+    android.widget.EditText val$NewUnitNumber -> c
+    java.lang.Runnable val$mDiscoveryRunnable -> d
+    android.widget.Button val$enter -> e
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.UnitNumberForm$5 -> gM:
+    com.clancy.aticket.UnitNumberForm this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.clancy.aticket.UploadBackgroundForm -> com.clancy.aticket.UploadBackgroundForm:
+    android.os.Handler handler -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String ReturnFileContents(java.lang.String) -> a
+    byte[] ReturnByteArray(java.lang.String) -> b
+com.clancy.aticket.UploadBackgroundForm$1 -> gN:
+    com.clancy.aticket.UploadBackgroundForm this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.clancy.aticket.UploadData -> gO:
+    void UploadDataFilesObsolete(android.content.Context) -> a
+    int EraseFile(java.lang.String) -> a
+com.clancy.aticket.UploadForm -> com.clancy.aticket.UploadForm:
+    android.os.Handler mHandler -> a
+    java.lang.Boolean FileSent -> b
+    java.lang.String HTTPageFilesize -> c
+    java.lang.String TempUploadIpAddress -> d
+    java.lang.String CurrentUnitNumber -> e
+    java.lang.Runnable mCheckWebsite -> f
+    java.lang.Runnable mCheckFailed -> g
+    java.lang.Runnable mUploadTickFile -> h
+    java.lang.Runnable mUploadAddiFile -> i
+    java.lang.Runnable mUploadLocaFile -> j
+    java.lang.Runnable mUploadVoidFile -> k
+    java.lang.Runnable mUploadHittFile -> l
+    java.lang.Runnable mUploadChecFile -> m
+    java.lang.Runnable mUploadPictFile -> n
+    java.lang.Runnable mUploadJPGFile -> o
+    java.lang.Runnable mForceUnload -> p
+    java.lang.Runnable mExit -> q
+    void onCreate(android.os.Bundle) -> onCreate
+    int EraseFile(java.lang.String) -> a
+    void access$0(com.clancy.aticket.UploadForm,java.lang.String) -> a
+    java.lang.String access$1(com.clancy.aticket.UploadForm) -> a
+    void access$2(com.clancy.aticket.UploadForm,java.lang.String) -> b
+    java.lang.String access$3(com.clancy.aticket.UploadForm) -> b
+    android.os.Handler access$4(com.clancy.aticket.UploadForm) -> c
+    java.lang.Runnable access$5(com.clancy.aticket.UploadForm) -> d
+    void access$6(com.clancy.aticket.UploadForm,java.lang.String) -> c
+    java.lang.Runnable access$7(com.clancy.aticket.UploadForm) -> e
+    java.lang.Runnable access$8(com.clancy.aticket.UploadForm) -> f
+    java.lang.String access$9(com.clancy.aticket.UploadForm) -> g
+    void access$10(com.clancy.aticket.UploadForm,java.lang.Boolean) -> a
+    java.lang.Boolean access$11(com.clancy.aticket.UploadForm) -> h
+    java.lang.Runnable access$12(com.clancy.aticket.UploadForm) -> i
+    java.lang.Runnable access$13(com.clancy.aticket.UploadForm) -> j
+    java.lang.Runnable access$14(com.clancy.aticket.UploadForm) -> k
+    java.lang.Runnable access$15(com.clancy.aticket.UploadForm) -> l
+    java.lang.Runnable access$16(com.clancy.aticket.UploadForm) -> m
+    java.lang.Runnable access$17(com.clancy.aticket.UploadForm) -> n
+    java.lang.Runnable access$18(com.clancy.aticket.UploadForm) -> o
+    java.lang.Runnable access$19(com.clancy.aticket.UploadForm) -> p
+com.clancy.aticket.UploadForm$1 -> gP:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$10 -> gQ:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$11 -> gR:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$12 -> gS:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$2 -> gT:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$3 -> gU:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$4 -> gV:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$5 -> gW:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$6 -> gX:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$7 -> gY:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$8 -> gZ:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.UploadForm$9 -> ha:
+    com.clancy.aticket.UploadForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.Vboot -> hb:
+    int GetVBootList(android.content.Context) -> a
+com.clancy.aticket.VehicleHistoryForm -> com.clancy.aticket.VehicleHistoryForm:
+    android.os.Handler mHandler -> a
+    java.lang.Runnable mGetInfo -> b
+    java.lang.String PrintVehicleHistory(android.content.Context,java.io.OutputStream) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.VehicleHistoryForm$1 -> hc:
+    com.clancy.aticket.VehicleHistoryForm this$0 -> a
+    void run() -> run
+com.clancy.aticket.VehicleHistoryForm$2 -> hd:
+    com.clancy.aticket.VehicleHistoryForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.VinForm -> com.clancy.aticket.VinForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.VinForm) -> a
+com.clancy.aticket.VinForm$1 -> he:
+    com.clancy.aticket.VinForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.VinForm$2 -> hf:
+    com.clancy.aticket.VinForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.VinForm$3 -> hg:
+    com.clancy.aticket.VinForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.VinForm$4 -> hh:
+    com.clancy.aticket.VinForm this$0 -> a
+    android.widget.TextView val$count -> b
+    android.widget.EditText val$vin -> c
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.ViolateForm -> com.clancy.aticket.ViolateForm:
+    java.lang.String ViolateFilename -> a
+    void EnterClick() -> a
+    void LiveMultipleCheck() -> b
+    void ShowData(java.lang.String) -> a
+    void LeftClick() -> c
+    void RightClick() -> d
+    void TextChange(java.lang.String) -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void PerformChangeViolation(int) -> a
+    void access$0(com.clancy.aticket.ViolateForm) -> a
+    void access$1(com.clancy.aticket.ViolateForm) -> b
+    void access$2(com.clancy.aticket.ViolateForm) -> c
+    void access$3(com.clancy.aticket.ViolateForm,java.lang.String) -> a
+com.clancy.aticket.ViolateForm$1 -> hi:
+    com.clancy.aticket.ViolateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ViolateForm$2 -> hj:
+    com.clancy.aticket.ViolateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ViolateForm$3 -> hk:
+    com.clancy.aticket.ViolateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ViolateForm$4 -> hl:
+    com.clancy.aticket.ViolateForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.ViolateForm$5 -> hm:
+    com.clancy.aticket.ViolateForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.ViolateForm$6 -> hn:
+    com.clancy.aticket.ViolateForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.VirtPermForm -> com.clancy.aticket.VirtPermForm:
+    void EnterClick() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.VirtPermForm) -> a
+com.clancy.aticket.VirtPermForm$1 -> ho:
+    com.clancy.aticket.VirtPermForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.VirtPermForm$2 -> hp:
+    com.clancy.aticket.VirtPermForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.VirtPermForm$3 -> hq:
+    com.clancy.aticket.VirtPermForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.WiFiOnForm -> com.clancy.aticket.WiFiOnForm:
+    void onCreate(android.os.Bundle) -> onCreate
+com.clancy.aticket.WiFiOnForm$1 -> hr:
+    com.clancy.aticket.WiFiOnForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.WiFiOnForm$2 -> hs:
+    com.clancy.aticket.WiFiOnForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.WifiReceiver -> com.clancy.aticket.WifiReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.clancy.aticket.WorkingStorage -> ht:
+    java.lang.String GetCharVal(java.lang.String,android.content.Context) -> a
+    void StoreCharVal(java.lang.String,java.lang.String,android.content.Context) -> a
+    void StoreLongVal(java.lang.String,int,android.content.Context) -> a
+    int GetLongVal(java.lang.String,android.content.Context) -> b
+    void ClearAllVariables(android.content.Context) -> a
+    void ClearSomeVariables(android.content.Context) -> b
+    void ClearIOUVariables(android.content.Context) -> c
+com.clancy.aticket.XMeterForm -> com.clancy.aticket.XMeterForm:
+    void EnterClick() -> a
+    void LeftClick() -> b
+    void RightClick() -> c
+    void TextChange(java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void access$0(com.clancy.aticket.XMeterForm) -> a
+    void access$1(com.clancy.aticket.XMeterForm,java.lang.String) -> a
+    void access$2(com.clancy.aticket.XMeterForm) -> b
+    void access$3(com.clancy.aticket.XMeterForm) -> c
+com.clancy.aticket.XMeterForm$1 -> hu:
+    com.clancy.aticket.XMeterForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.XMeterForm$2 -> hv:
+    com.clancy.aticket.XMeterForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.XMeterForm$3 -> hw:
+    com.clancy.aticket.XMeterForm this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.clancy.aticket.XMeterForm$4 -> hx:
+    com.clancy.aticket.XMeterForm this$0 -> a
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.clancy.aticket.XMeterForm$5 -> hy:
+    com.clancy.aticket.XMeterForm this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.clancy.aticket.XMeterForm$6 -> hz:
+    com.clancy.aticket.XMeterForm this$0 -> a
+    void onClick(android.view.View) -> onClick

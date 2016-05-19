@@ -1,0 +1,337 @@
+# view res/layout/addcomment1form.xml #generated:66
+# view res/layout/addcomment2form.xml #generated:66
+# view res/layout/addcomment3form.xml #generated:66
+# view res/layout/addfeeform.xml #generated:60
+# view res/layout/badgeform.xml #generated:66
+# view res/layout/beatform.xml #generated:66
+# view res/layout/bodyform.xml #generated:52
+# view res/layout/bootform.xml #generated:31
+# view res/layout/chalkform.xml #generated:60
+# view res/layout/clancydotjform.xml #generated:60
+# view res/layout/colorform.xml #generated:52
+# view res/layout/comment1form.xml #generated:66
+# view res/layout/comment2form.xml #generated:66
+# view res/layout/comment3form.xml #generated:66
+# view res/layout/commentform.xml #generated:137
+# view res/layout/courtdateform.xml #generated:60
+# view res/layout/crossstreetform.xml #generated:52
+# view res/layout/customdateform.xml #generated:60
+# view res/layout/customtimeform.xml #generated:60
+# view res/layout/deptform.xml #generated:52
+# view res/layout/directionform.xml #generated:44
+# view res/layout/hboxdownloadform.xml #generated:44
+# view res/layout/hboxselectlotform.xml #generated:75
+# view res/layout/hboxuploadform.xml #generated:44
+# view res/layout/honorlotform.xml #generated:157
+# view res/layout/ipaddressform.xml #generated:89
+# view res/layout/lamtapermitform.xml #generated:46
+# view res/layout/languageform.xml #generated:46
+# view res/layout/lastfourform.xml #generated:59
+# view res/layout/lgstreetform.xml #generated:52
+# view res/layout/liccolorform.xml #generated:52
+# view res/layout/makeform.xml #generated:52
+# view res/layout/meterform.xml #generated:67
+# view res/layout/monthform.xml #generated:85
+# view res/layout/newplatetypeform.xml #generated:52
+# view res/layout/numberform.xml #generated:68
+# view res/layout/nyvinform.xml #generated:65
+# view res/layout/officerform.xml #generated:66
+# view res/layout/offlinepasswordform.xml #generated:62
+# view res/layout/parkbyphoneform.xml #generated:46
+# view res/layout/passwordform.xml #generated:62
+# view res/layout/passwordform.xml #generated:76
+# view res/layout/permitform.xml #generated:66
+# view res/layout/plateform.xml #generated:31
+# view res/layout/platehistoryform.xml #generated:31
+# view res/layout/platetypeform.xml #generated:52
+# view res/layout/plateyearform.xml #generated:71
+# view res/layout/ratesform.xml #generated:60
+# view res/layout/richmondnumberform.xml #generated:59
+# view res/layout/stateform.xml #generated:44
+# view res/layout/stemform.xml #generated:84
+# view res/layout/stickerform.xml #generated:60
+# view res/layout/streetform.xml #generated:52
+# view res/layout/streettypeform.xml #generated:52
+# view res/layout/tempexpireform.xml #generated:60
+# view res/layout/tempplateform.xml #generated:31
+# view res/layout/ticketpromptform.xml #generated:64
+# view res/layout/unitnumberform.xml #generated:25
+# view res/layout/vinform.xml #generated:65
+# view res/layout/violateform.xml #generated:85
+# view res/layout/virtpermform.xml #generated:66
+# view res/layout/xmeterform.xml #generated:44
+-keep class android.inputmethodservice.KeyboardView { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.clancy.aticket.AddFeeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.clancy.aticket.AdditionalComment1Form { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.clancy.aticket.AdditionalComment2Form { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.clancy.aticket.AdditionalComment3Form { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.clancy.aticket.AticketActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.clancy.aticket.BadgeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.clancy.aticket.BeatForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.clancy.aticket.BodyForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.clancy.aticket.BootForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.clancy.aticket.BuildingForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.clancy.aticket.CameraForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.clancy.aticket.ChalkForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.clancy.aticket.ChalkTimeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.clancy.aticket.ClancyJForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.clancy.aticket.ColorForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.clancy.aticket.Comment1Form { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.clancy.aticket.Comment2Form { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.clancy.aticket.Comment3Form { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.clancy.aticket.CommentForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.clancy.aticket.CountForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.clancy.aticket.CourtDateForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.clancy.aticket.CrossStreetForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.clancy.aticket.CustomDateForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.clancy.aticket.CustomTimeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.clancy.aticket.Defines { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.clancy.aticket.DeptForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.clancy.aticket.DetailsForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.clancy.aticket.DirectionForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.clancy.aticket.DisplaySpaceForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.clancy.aticket.EmailForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.clancy.aticket.GPSForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.clancy.aticket.GetBootForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.clancy.aticket.GoogleMapsForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.clancy.aticket.HBoxCameraForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.clancy.aticket.HBoxDownloadForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.clancy.aticket.HBoxSelectLotForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.clancy.aticket.HBoxUploadForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.clancy.aticket.HonorCashForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.clancy.aticket.HonorLotForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.clancy.aticket.IPAddressForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.clancy.aticket.LAMTAPermitForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.clancy.aticket.LGStreetForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.clancy.aticket.LGStreetSpinForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class com.clancy.aticket.LanguageForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:250
+-keep class com.clancy.aticket.LastFourForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.clancy.aticket.LicColorForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:270
+-keep class com.clancy.aticket.MakeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.clancy.aticket.MeterForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class com.clancy.aticket.MonthForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:285
+-keep class com.clancy.aticket.MultipleChalksForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:310
+-keep class com.clancy.aticket.NYVinForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:295
+-keep class com.clancy.aticket.NewPermitForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:300
+-keep class com.clancy.aticket.NewPlateTypeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:290
+-keep class com.clancy.aticket.NextLastForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:305
+-keep class com.clancy.aticket.NumberForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:315
+-keep class com.clancy.aticket.OfficerForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:320
+-keep class com.clancy.aticket.OfflinePasswordForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:325
+-keep class com.clancy.aticket.ParkByPhoneForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.clancy.aticket.PasswordForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:335
+-keep class com.clancy.aticket.PermitForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:340
+-keep class com.clancy.aticket.PlateForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:345
+-keep class com.clancy.aticket.PlateHistoryForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:350
+-keep class com.clancy.aticket.PlateTypeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:355
+-keep class com.clancy.aticket.PlateYearForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:360
+-keep class com.clancy.aticket.PrintForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:365
+-keep class com.clancy.aticket.PrintSelectForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:370
+-keep class com.clancy.aticket.RatesForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:380
+-keep class com.clancy.aticket.RefreshForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.clancy.aticket.RichmondNumberForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:385
+-keep class com.clancy.aticket.SelFuncForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:389
+-keep class com.clancy.aticket.ShowTimeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:394
+-keep class com.clancy.aticket.StateForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:404
+-keep class com.clancy.aticket.StemForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:399
+-keep class com.clancy.aticket.StickerForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:409
+-keep class com.clancy.aticket.StreetForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:414
+-keep class com.clancy.aticket.StreetTypeForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:419
+-keep class com.clancy.aticket.SwitchForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:423
+-keep class com.clancy.aticket.TempExpireForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:428
+-keep class com.clancy.aticket.TempPlateForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:433
+-keep class com.clancy.aticket.TicketPromptForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:438
+-keep class com.clancy.aticket.TicketSpeechForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:443
+-keep class com.clancy.aticket.UnitNumberForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:453
+-keep class com.clancy.aticket.UploadBackgroundForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:448
+-keep class com.clancy.aticket.UploadForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:458
+-keep class com.clancy.aticket.VehicleHistoryForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:468
+-keep class com.clancy.aticket.VinForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:473
+-keep class com.clancy.aticket.ViolateForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:463
+-keep class com.clancy.aticket.VirtPermForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:483
+-keep class com.clancy.aticket.WiFiOnForm { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.clancy.aticket.WifiReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:478
+-keep class com.clancy.aticket.XMeterForm { <init>(...); }
+

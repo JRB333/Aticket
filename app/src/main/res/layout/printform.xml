@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" />
+
+    <TextView
+        android:id="@+id/widgetPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:text="@string/saving"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonTryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/widgetPrint"
+        android:layout_below="@+id/widgetPrint"
+        android:layout_marginTop="17dp"
+        android:text="@string/try_again"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonTryAgain"
+        android:layout_alignBottom="@+id/buttonTryAgain"
+        android:layout_toRightOf="@+id/buttonTryAgain"
+        android:text="@string/skip"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextCitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextImageWidth"
+        android:layout_alignLeft="@+id/TextImageWidth"
+        android:layout_alignParentRight="true"
+        android:text="Citation"
+        android:textColor="#ff000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

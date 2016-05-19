@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <Button
+        android:id="@+id/buttonDONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_done"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/textViewLotName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/buttonDONE"
+        android:text="Cash Check"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonDONE"
+        android:layout_alignLeft="@+id/textViewLotName"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:layout_alignTop="@+id/buttonDONE"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewLotName"
+        android:layout_toRightOf="@+id/textViewLotName"
+        android:text="Time"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditTextCash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLotName"
+        android:layout_toRightOf="@+id/textViewLotName"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textColorHighlight="#A6D48D" 
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditTextCash"
+        android:layout_alignBottom="@+id/EditTextCash"
+        android:layout_alignParentLeft="true"
+        android:text="Space "
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/textViewLotName"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColorHighlight="#A6D48D" 
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditTextCash"
+        android:layout_alignBottom="@+id/EditTextCash"
+        android:layout_alignRight="@+id/textViewLotName"
+        android:text="$"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTextNumber"
+        android:layout_below="@+id/textViewLotName"
+        android:layout_marginTop="11dp"        
+        android:text="@string/go"
+          android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		 android:layout_toLeftOf="@+id/buttonFour"    
+        android:layout_below="@+id/editTextNumber"
+        android:text="99.99"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonOne" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_marginTop="10dp"
+        android:text="99.99"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonThree"
+        android:layout_toLeftOf="@+id/buttonStore"
+        android:text="  Clear  "
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonClear"
+        android:layout_alignBottom="@+id/buttonClear"
+        android:layout_alignParentRight="true"
+        android:text="  Store  "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPrevious"
+  		android:drawableLeft="@drawable/back_arrow"
+  		android:gravity="left|center_vertical"
+              
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonClear"
+        android:layout_alignBottom="@+id/buttonClear"
+        android:layout_alignParentLeft="true"
+        android:text=" "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonForward" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonPrevious"
+        android:layout_alignBottom="@+id/buttonPrevious"
+        android:drawableLeft="@drawable/forward_arrow" 
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:text=" " 
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonThree"
+        android:layout_alignBottom="@+id/buttonThree"
+        android:layout_alignParentRight="true"
+        android:text="99.99"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonClear"
+        android:layout_toRightOf="@+id/buttonOne"
+        android:layout_marginLeft="10dp"
+        android:text="99.99"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\clancy.png",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\drawable-mdpi\\clancy.png"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\clancyicon.png",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\drawable-mdpi\\clancyicon.png"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]

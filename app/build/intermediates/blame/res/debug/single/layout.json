@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveyselectroute.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveyselectroute.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lamtapermitform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\lamtapermitform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\platehistoryform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\platehistoryform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signaturecaptureform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\signaturecaptureform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\violateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\violateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lastfourform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\lastfourform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveyselfuncform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveyselfuncform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selfuncform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\selfuncform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cameraform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\cameraform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wifionform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\wifionform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\badgeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\badgeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ticketpromptform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\ticketpromptform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment2form.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\comment2form.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xmeterform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\xmeterform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveyselectrouteform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveyselectrouteform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multiplechalksform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\multiplechalksform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chalkform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\chalkform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\makeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\makeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hboxselectlotform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\hboxselectlotform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\offlinepasswordform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\offlinepasswordform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\printselectform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\printselectform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveypassdataform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveypassdataform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\liccolorform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\liccolorform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\courtdateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\courtdateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addcomment3form.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\addcomment3form.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\parkbyphoneform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\parkbyphoneform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tempplateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\tempplateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\permithistoryform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\permithistoryform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chalktimeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\chalktimeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveypassform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveypassform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bootform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\bootform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\permitform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\permitform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\countform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\countform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\monthform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\monthform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\streettypeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\streettypeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveyupdateroutesform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveyupdateroutesform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ipaddressform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\ipaddressform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plateyearform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\plateyearform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addfeeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\addfeeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vehiclehistoryform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\vehiclehistoryform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bodyform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\bodyform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\getbootform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\getbootform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailsform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\detailsform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\meterform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\meterform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ticketspeechform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\ticketspeechform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\honorlotform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\honorlotform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newplatetypeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\newplatetypeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hboxcameraform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\hboxcameraform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\honorcashform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\honorcashform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\showtimeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\showtimeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\streetform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\streetform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\colorform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\colorform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment1form.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\comment1form.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\platetypeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\platetypeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nyvinform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\nyvinform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nextlastform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\nextlastform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beatform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\beatform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hboxdownloadform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\hboxdownloadform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lgstreetspinform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\lgstreetspinform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crossstreetform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\crossstreetform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addcomment1form.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\addcomment1form.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\deptform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\deptform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commentform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\commentform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ratesform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\ratesform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stickerform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\stickerform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\passwordform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\passwordform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\officerform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\officerform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clancyjform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\clancyjform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\richmondnumberform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\richmondnumberform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\languageform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\languageform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customtimeform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\customtimeform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\stateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refreshform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\refreshform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\printform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\printform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gpsform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\gpsform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tempexpireform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\tempexpireform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\displayspaceform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\displayspaceform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\numberform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\numberform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customdateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\customdateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\emailform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\emailform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\addcomment2form.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\addcomment2form.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buildingform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\buildingform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newpermitform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\newpermitform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveydefaultstateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveydefaultstateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\googlemapsform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\googlemapsform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unitnumberform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\unitnumberform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirmimagefileform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\confirmimagefileform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stemform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\stemform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hboxuploadform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\hboxuploadform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\surveyuploadroutefiles.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\surveyuploadroutefiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\uploadform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\uploadform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\directionform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\directionform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lgstreetform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\lgstreetform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\virtpermform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\virtpermform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vinform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\vinform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plateform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\plateform.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment3form.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\comment3form.xml"
+    },
+    {
+        "merged": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clancydotjform.xml",
+        "source": "C:\\Users\\JRB.CLANCY\\AndroidStudioProjects\\Aticket\\app\\src\\main\\res\\layout\\clancydotjform.xml"
+    }
+]

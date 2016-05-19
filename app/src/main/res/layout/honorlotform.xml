@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <Button
+        android:id="@+id/buttonDONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_done"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/textViewLotName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/buttonDONE"
+        android:text="Plate Check"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonDONE"
+        android:layout_alignLeft="@+id/textViewLotName"
+        android:layout_alignRight="@+id/TextImageWidth"
+        android:layout_alignTop="@+id/buttonDONE"
+        android:contentDescription="@string/image_name"
+        android:src="@drawable/clancy1" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/TextImageWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/image_width"
+        android:textColor="#ff000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textViewLotName"
+        android:layout_toRightOf="@+id/textViewLotName"
+        android:text="Time"
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLotName"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/textViewLotName"
+        android:ems="10"
+        android:maxLength="3"
+        android:textSize="22sp"
+        android:textColorHighlight="#A6D48D" 
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextPlate"
+        android:layout_alignBottom="@+id/editTextPlate"
+        android:layout_alignParentLeft="true"
+        android:text="Space "
+        android:textColor="#ff000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/textViewLotName"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="8"
+        android:textColorHighlight="#A6D48D" 
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTextNumber"
+        android:layout_below="@+id/textViewLotName"
+        android:layout_marginTop="11dp"
+        android:text="@string/go"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonGo"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/textViewLotName"
+        android:text="  Clear  "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonClear"
+        android:layout_alignBottom="@+id/buttonClear"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/back_arrow"
+        android:gravity="left|center_vertical"
+        android:text=" "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonPrevious"
+        android:layout_alignBottom="@+id/buttonPrevious"
+        android:layout_toRightOf="@+id/buttonPrevious"
+        android:drawableLeft="@drawable/forward_arrow"
+        android:gravity="left|center_vertical"
+        android:text=" "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/buttonPlateThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPlate"
+        android:layout_toRightOf="@+id/textViewLotName"
+        android:text="  Three  "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonRePrintTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/buttonPrevious"
+        android:layout_marginTop="11dp"
+        android:text="Reprint Last Ticket"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/key_back1"
+        android:keyTextColor="#ff000000"
+        android:keyTextSize="30sp"
+        android:shadowColor="#ffFFFFFF" />
+
+</RelativeLayout>

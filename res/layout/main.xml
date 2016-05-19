@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget37" 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget63"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/empty_string_6"
+android:layout_below="@+id/widget62"
+android:layout_alignLeft="@+id/widget62"
+>
+</TextView>
+<TextView
+android:id="@+id/widget62"
+android:layout_width="wrap_content"
+android:layout_height="25dp"
+android:text="@string/empty_string_6"
+android:textSize="20sp"
+android:layout_below="@+id/buttonExit"
+android:layout_alignLeft="@+id/widget34"
+>
+</TextView>
+<Button
+android:id="@+id/buttonExit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/exit"
+android:textSize="20sp"
+android:textStyle="bold"
+android:layout_below="@+id/buttonBegin"
+android:layout_alignLeft="@+id/buttonBegin"
+>
+</Button>
+<TextView  android:textSize="18sp" android:text="@string/version" android:layout_height="wrap_content" android:textStyle="normal" android:id="@+id/widget34" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:layout_toLeftOf="@+id/buttonExit"></TextView>
+<Button android:textSize="20sp" 
+    android:id="@+id/buttonBegin" 
+    android:textStyle="bold" 
+    android:layout_height="wrap_content" 
+    android:text="@string/begin" 
+    android:layout_width="wrap_content"  
+    android:layout_alignParentRight="true" 
+    android:layout_marginTop="4dp" 
+    android:focusable="true" 
+    android:focusableInTouchMode="true"></Button>
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/buttonBegin"
+    android:layout_alignParentLeft="true"
+    android:layout_alignRight="@+id/TextImageWidth"
+    android:layout_alignTop="@+id/buttonBegin"
+    android:contentDescription="@string/image_name"
+    android:src="@drawable/clancy1" >
+</ImageView>
+
+<TextView android:textSize="18sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/empty_string_6" android:id="@+id/TextView02" android:layout_below="@+id/widget63" android:layout_alignParentLeft="true" android:layout_alignRight="@+id/buttonExit" android:textColor="#ffff0000" ></TextView>
+<TextView android:textSize="18sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ff000000" android:text="@string/main_line_three" android:id="@+id/widget64" android:layout_below="@+id/TextView02" android:layout_alignParentLeft="true"></TextView>
+<TextView android:textSize="18sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ff000000" android:text="@string/main_line_two" android:id="@+id/widget65" android:layout_below="@+id/widget64" android:layout_alignParentLeft="true"></TextView>
+<TextView android:textSize="18sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#ff000000" android:text="@string/main_line_one" android:id="@+id/widget66" android:layout_below="@+id/widget65" android:layout_alignParentLeft="true"></TextView>
+     <TextView
+         android:id="@+id/TextImageWidth"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"         
+         android:text="@string/image_width"
+         android:textColor="#ff000000"
+         android:textSize="18sp" 
+         android:visibility="invisible"/>
+
+     <TextView
+         android:id="@+id/TextView03"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/widget34"
+         android:layout_toLeftOf="@+id/buttonExit"
+         android:clickable="true"
+         android:text="@string/main_line_four"
+         android:textColor="#ff0000ff"
+         android:textSize="18sp"
+         android:textStyle="normal" />
+
+     <TextView
+         android:id="@+id/TextViewUnitNumber"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:clickable="true"
+         android:text="@string/unit"
+         android:textColor="#ff0000ff"
+         android:textSize="22sp"
+         android:textStyle="normal" />
+
+     <Button
+         android:id="@+id/ButtonSettings"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/TextImageWidth"
+         android:layout_alignParentLeft="true"
+         android:focusable="true"
+         android:focusableInTouchMode="true"
+         android:text="@string/settings"
+         android:textSize="12sp"
+         android:visibility="invisible"
+          />
+
+     <TextView
+         android:id="@+id/TextViewClient"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/widget66"
+         android:text="Client"
+         android:textColor="#ff000000"
+         android:textSize="18sp" />
+
+     <CheckBox
+         android:id="@+id/checkBoxOffine"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/ButtonSettings"
+         android:layout_alignParentLeft="true"
+         android:text="Use Offline" />
+ 
+</RelativeLayout>
+
+
+
+
+

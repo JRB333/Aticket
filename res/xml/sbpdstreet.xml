@@ -1,0 +1,44 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="14.28%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="8%"    >
+
+    <Row>
+        <Key android:codes="154" android:keyLabel="CALLE" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="155" android:keyLabel="CPL" android:keyWidth="25%p"/>
+        <Key android:codes="156" android:keyLabel="DE LA" android:keyWidth="25%p"/>
+        <Key android:codes="157" android:keyLabel="DEL" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+    </Row>  
+    <Row>
+        <Key android:codes="158" android:keyLabel="EL" android:keyWidth="25%p" android:keyEdgeFlags="left" />
+        <Key android:codes="159" android:keyLabel="LA" android:keyWidth="25%p" />
+        <Key android:codes="160" android:keyLabel="LAS" android:keyWidth="25%p"  />
+        <Key android:codes="161" android:keyLabel="LOS" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+        
+    </Row>      
+    <Row>
+        <Key android:codes="164" android:keyLabel="MARINA" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="162" android:keyLabel="SAN" android:keyWidth="25%p"/>
+        <Key android:codes="163" android:keyLabel="SANTA" android:keyWidth="25%p"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"  android:keyEdgeFlags="right"/>
+    </Row>        
+    <Row>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"/>
+		<Key android:codes="200" android:keyLabel="" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+    </Row>  
+    <Row>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"/>
+		<Key android:codes="200" android:keyLabel="" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+    </Row>
+                <Row>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"/>
+        <Key android:codes="200" android:keyLabel="" android:keyWidth="25%p"/>
+		<Key android:codes="200" android:keyLabel="" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
